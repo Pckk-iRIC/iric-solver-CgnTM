@@ -29,12 +29,6 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: ${{ env.PYTHON_VERSION }}
-          cache: pip
-          cache-dependency-path: |
-            requirements*.txt
-            pyproject.toml
-            setup.cfg
-            setup.py
 
       - name: Upgrade pip
         run: python -m pip install --upgrade pip
@@ -52,7 +46,7 @@ jobs:
             # docs extra があるなら優先（無ければ . にフォールバック）
             python -m pip install ".[docs]" || python -m pip install . || python -m pip install mkdocs mkdocs-material
           else
-            # 最低限（依存ファイルが無い場合の保険）
+            # 依存ファイルが無い場合は最低限だけ入れる
             python -m pip install mkdocs mkdocs-material
           fi
 

@@ -19,12 +19,11 @@
 
 ## 配置
 - 開発: リポジトリ直下の `src`
-- 本番: `C:\Users\yuuta.ochiai\iRIC_v4\private\solvers\`
+- 本番: `C:\Users\<username>\iRIC_v4\private\solvers\`
 
 # iRIC環境の注意点
 - iRICのインストール時に Miniconda3 もインストールする必要があります。
 - Miniconda3 の存在確認は `C:\Users\<username>\iRIC_v4\Miniconda3` を参照してください。
-  ※ `<username>` は各ユーザー名に置き換えてください。
 
 ## ダウンロード方法
 Releasesページから最新版のページを開き、Assetsからダウンロードしてください。

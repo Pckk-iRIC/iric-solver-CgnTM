@@ -27,34 +27,28 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: astral-sh/setup-uv@v3
         with:
           python-version: ${{ env.PYTHON_VERSION }}
-          cache: pip
-          cache-dependency-path: |
-            requirements*.txt
-            pyproject.toml
-            setup.cfg
-            setup.py
+          enable-cache: true
 
-      - name: Upgrade pip
-        run: python -m pip install --upgrade pip
-
-      - name: Install dependencies (manual)
+      - name: Install dependencies (uv)
         shell: bash
         run: |
           set -euxo pipefail
-          if [[ -f requirements.txt ]]; then
-            python -m pip install -r requirements.txt
+          if [[ -f pyproject.toml ]]; then
+            if [[ -f uv.lock ]]; then
+              uv sync --frozen --all-extras --dev
+            else
+              uv sync --all-extras --dev
+            fi
+          elif [[ -f requirements.txt ]]; then
+            uv pip install -r requirements.txt
           elif [[ -f requirements-dev.txt ]]; then
-            python -m pip install -r requirements-dev.txt
-          elif [[ -f pyproject.toml ]]; then
-            # pyproject.toml がある場合は、プロジェクト自身をインストール
-            # （docs 用 extras を定義しているなら、ここを ".[docs]" のように調整）
-            python -m pip install .
+            uv pip install -r requirements-dev.txt
           else
             # 最低限（依存ファイルが無い場合の保険）
-            python -m pip install mkdocs mkdocs-material
+            uv pip install mkdocs mkdocs-material
           fi
 
       - name: Build documentation

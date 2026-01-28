@@ -5,5 +5,5 @@ theme:
   name: readthedocs
 nav:
   - ホーム: index.md
-  - 使い方: usage.md
   - ダウンロードと配置: install.md
+  - 使い方: usage.md

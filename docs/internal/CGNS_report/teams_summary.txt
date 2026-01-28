@@ -1,0 +1,11 @@
+CGNS差分の要約
+
+・tree_Case1_input.txt は入力条件・地形・格子の定義が中心で、BaseIterativeData（TimeValues等）が無い
+・tree_Case1.txt は上記に加えて BaseIterativeData があり、時系列結果向けのCase1構造
+・tree_solution1.txt はFlowSolution/FlowCellSolutionなど結果そのもの＋ポインタ中心で、入力条件はほぼ空
+
+なぜ Solution*.cgn だけで Case1 相当を作れるか：
+・可視化に必要な最小要素は「格子座標・結果(FlowSolution)・時刻(TimeValues)」
+・Solution*.cgn にはこれらが含まれるため、束ねれば Case1.cgn 相当になる
+・CalculationConditions/GeographicData は計算条件の再現用で、可視化だけなら必須ではない
+・ただし iRIC のプロジェクトとして開く場合は project.xml などの構成が必要

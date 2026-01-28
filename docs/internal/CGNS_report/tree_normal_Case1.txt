@@ -1,0 +1,2170 @@
+DATASET  format
+DATASET  hdf5version
+GROUP   CGNSLibraryVersion
+DATASET CGNSLibraryVersion/ data
+GROUP   iRIC
+DATASET iRIC/ data
+GROUP   iRIC/BaseIterativeData
+DATASET iRIC/BaseIterativeData/ data
+GROUP   iRIC/BaseIterativeData/TimeValues
+DATASET iRIC/BaseIterativeData/TimeValues/ data
+GROUP   iRIC/CalculationConditions
+GROUP   iRIC/CalculationConditions/cname0
+GROUP   iRIC/CalculationConditions/cname0/Value
+DATASET iRIC/CalculationConditions/cname0/Value/ data
+GROUP   iRIC/CalculationConditions/cname1
+GROUP   iRIC/CalculationConditions/cname1/Value
+DATASET iRIC/CalculationConditions/cname1/Value/ data
+GROUP   iRIC/CalculationConditions/cname2
+GROUP   iRIC/CalculationConditions/cname2/Value
+DATASET iRIC/CalculationConditions/cname2/Value/ data
+GROUP   iRIC/CalculationConditions/cname3
+GROUP   iRIC/CalculationConditions/cname3/Value
+DATASET iRIC/CalculationConditions/cname3/Value/ data
+GROUP   iRIC/CalculationConditions/fname0
+GROUP   iRIC/CalculationConditions/fname0/Value
+DATASET iRIC/CalculationConditions/fname0/Value/ data
+GROUP   iRIC/CalculationConditions/fname1
+GROUP   iRIC/CalculationConditions/fname1/Value
+DATASET iRIC/CalculationConditions/fname1/Value/ data
+GROUP   iRIC/CalculationConditions/fname2
+GROUP   iRIC/CalculationConditions/fname2/Value
+DATASET iRIC/CalculationConditions/fname2/Value/ data
+GROUP   iRIC/CalculationConditions/fname3
+GROUP   iRIC/CalculationConditions/fname3/Value
+DATASET iRIC/CalculationConditions/fname3/Value/ data
+GROUP   iRIC/CalculationConditions/juoudan_folder
+GROUP   iRIC/CalculationConditions/juoudan_folder/Value
+DATASET iRIC/CalculationConditions/juoudan_folder/Value/ data
+GROUP   iRIC/CalculationConditions/juoudan_output
+GROUP   iRIC/CalculationConditions/juoudan_output/Value
+DATASET iRIC/CalculationConditions/juoudan_output/Value/ data
+GROUP   iRIC/CalculationConditions/nmax
+GROUP   iRIC/CalculationConditions/nmax/Value
+DATASET iRIC/CalculationConditions/nmax/Value/ data
+GROUP   iRIC/CalculationConditions/pname0
+GROUP   iRIC/CalculationConditions/pname0/Value
+DATASET iRIC/CalculationConditions/pname0/Value/ data
+GROUP   iRIC/GeographicData
+GROUP   iRIC/GeographicData/Elevation
+GROUP   iRIC/GeographicData/Elevation/1
+GROUP   iRIC/GeographicData/Elevation/1/filename
+DATASET iRIC/GeographicData/Elevation/1/filename/ data
+GROUP   iRIC/GeographicData/Elevation/1/type
+DATASET iRIC/GeographicData/Elevation/1/type/ data
+GROUP   iRIC/GeographicData/_referenceinformation
+GROUP   iRIC/GeographicData/_referenceinformation/1
+GROUP   iRIC/GeographicData/_referenceinformation/1/filename
+DATASET iRIC/GeographicData/_referenceinformation/1/filename/ data
+GROUP   iRIC/GeographicData/_referenceinformation/1/type
+DATASET iRIC/GeographicData/_referenceinformation/1/type/ data
+GROUP   iRIC/GridComplexConditions
+GROUP   iRIC/SolverInformation
+GROUP   iRIC/SolverInformation/Name
+DATASET iRIC/SolverInformation/Name/ data
+GROUP   iRIC/SolverInformation/Version
+DATASET iRIC/SolverInformation/Version/ data
+GROUP   iRIC/iRICZone
+DATASET iRIC/iRICZone/ data
+GROUP   iRIC/iRICZone/FlowSolution1
+GROUP   iRIC/iRICZone/FlowSolution1/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution1/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution1/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution1/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution1/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution1/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution1/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution1/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution1/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution1/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution1/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution1/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution1/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution1/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution1/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution1/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution1/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution1/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution10
+GROUP   iRIC/iRICZone/FlowSolution10/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution10/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution10/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution10/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution10/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution10/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution10/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution10/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution10/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution10/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution10/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution10/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution10/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution10/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution10/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution10/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution10/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution10/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution100
+GROUP   iRIC/iRICZone/FlowSolution100/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution100/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution100/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution100/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution100/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution100/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution100/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution100/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution100/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution100/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution100/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution100/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution100/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution100/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution100/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution100/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution100/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution100/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution101
+GROUP   iRIC/iRICZone/FlowSolution101/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution101/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution101/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution101/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution101/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution101/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution101/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution101/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution101/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution101/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution101/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution101/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution101/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution101/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution101/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution101/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution101/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution101/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution102
+GROUP   iRIC/iRICZone/FlowSolution102/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution102/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution102/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution102/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution102/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution102/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution102/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution102/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution102/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution102/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution102/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution102/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution102/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution102/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution102/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution102/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution102/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution102/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution103
+GROUP   iRIC/iRICZone/FlowSolution103/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution103/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution103/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution103/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution103/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution103/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution103/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution103/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution103/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution103/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution103/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution103/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution103/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution103/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution103/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution103/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution103/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution103/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution104
+GROUP   iRIC/iRICZone/FlowSolution104/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution104/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution104/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution104/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution104/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution104/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution104/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution104/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution104/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution104/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution104/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution104/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution104/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution104/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution104/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution104/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution104/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution104/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution105
+GROUP   iRIC/iRICZone/FlowSolution105/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution105/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution105/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution105/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution105/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution105/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution105/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution105/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution105/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution105/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution105/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution105/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution105/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution105/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution105/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution105/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution105/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution105/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution106
+GROUP   iRIC/iRICZone/FlowSolution106/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution106/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution106/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution106/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution106/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution106/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution106/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution106/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution106/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution106/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution106/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution106/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution106/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution106/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution106/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution106/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution106/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution106/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution107
+GROUP   iRIC/iRICZone/FlowSolution107/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution107/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution107/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution107/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution107/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution107/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution107/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution107/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution107/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution107/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution107/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution107/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution107/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution107/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution107/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution107/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution107/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution107/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution108
+GROUP   iRIC/iRICZone/FlowSolution108/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution108/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution108/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution108/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution108/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution108/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution108/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution108/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution108/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution108/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution108/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution108/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution108/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution108/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution108/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution108/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution108/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution108/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution109
+GROUP   iRIC/iRICZone/FlowSolution109/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution109/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution109/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution109/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution109/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution109/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution109/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution109/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution109/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution109/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution109/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution109/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution109/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution109/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution109/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution109/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution109/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution109/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution11
+GROUP   iRIC/iRICZone/FlowSolution11/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution11/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution11/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution11/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution11/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution11/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution11/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution11/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution11/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution11/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution11/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution11/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution11/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution11/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution11/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution11/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution11/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution11/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution110
+GROUP   iRIC/iRICZone/FlowSolution110/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution110/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution110/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution110/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution110/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution110/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution110/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution110/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution110/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution110/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution110/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution110/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution110/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution110/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution110/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution110/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution110/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution110/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution12
+GROUP   iRIC/iRICZone/FlowSolution12/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution12/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution12/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution12/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution12/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution12/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution12/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution12/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution12/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution12/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution12/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution12/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution12/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution12/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution12/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution12/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution12/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution12/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution13
+GROUP   iRIC/iRICZone/FlowSolution13/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution13/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution13/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution13/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution13/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution13/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution13/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution13/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution13/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution13/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution13/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution13/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution13/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution13/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution13/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution13/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution13/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution13/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution14
+GROUP   iRIC/iRICZone/FlowSolution14/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution14/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution14/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution14/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution14/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution14/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution14/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution14/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution14/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution14/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution14/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution14/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution14/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution14/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution14/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution14/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution14/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution14/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution15
+GROUP   iRIC/iRICZone/FlowSolution15/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution15/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution15/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution15/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution15/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution15/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution15/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution15/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution15/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution15/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution15/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution15/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution15/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution15/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution15/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution15/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution15/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution15/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution16
+GROUP   iRIC/iRICZone/FlowSolution16/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution16/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution16/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution16/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution16/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution16/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution16/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution16/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution16/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution16/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution16/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution16/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution16/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution16/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution16/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution16/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution16/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution16/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution17
+GROUP   iRIC/iRICZone/FlowSolution17/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution17/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution17/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution17/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution17/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution17/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution17/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution17/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution17/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution17/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution17/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution17/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution17/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution17/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution17/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution17/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution17/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution17/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution18
+GROUP   iRIC/iRICZone/FlowSolution18/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution18/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution18/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution18/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution18/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution18/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution18/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution18/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution18/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution18/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution18/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution18/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution18/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution18/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution18/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution18/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution18/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution18/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution19
+GROUP   iRIC/iRICZone/FlowSolution19/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution19/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution19/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution19/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution19/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution19/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution19/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution19/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution19/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution19/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution19/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution19/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution19/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution19/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution19/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution19/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution19/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution19/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution2
+GROUP   iRIC/iRICZone/FlowSolution2/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution2/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution2/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution2/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution2/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution2/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution2/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution2/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution2/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution2/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution2/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution2/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution2/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution2/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution2/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution2/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution2/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution2/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution20
+GROUP   iRIC/iRICZone/FlowSolution20/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution20/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution20/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution20/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution20/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution20/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution20/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution20/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution20/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution20/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution20/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution20/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution20/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution20/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution20/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution20/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution20/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution20/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution21
+GROUP   iRIC/iRICZone/FlowSolution21/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution21/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution21/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution21/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution21/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution21/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution21/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution21/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution21/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution21/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution21/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution21/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution21/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution21/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution21/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution21/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution21/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution21/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution22
+GROUP   iRIC/iRICZone/FlowSolution22/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution22/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution22/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution22/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution22/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution22/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution22/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution22/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution22/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution22/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution22/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution22/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution22/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution22/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution22/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution22/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution22/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution22/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution23
+GROUP   iRIC/iRICZone/FlowSolution23/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution23/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution23/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution23/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution23/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution23/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution23/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution23/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution23/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution23/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution23/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution23/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution23/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution23/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution23/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution23/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution23/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution23/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution24
+GROUP   iRIC/iRICZone/FlowSolution24/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution24/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution24/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution24/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution24/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution24/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution24/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution24/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution24/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution24/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution24/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution24/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution24/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution24/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution24/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution24/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution24/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution24/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution25
+GROUP   iRIC/iRICZone/FlowSolution25/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution25/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution25/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution25/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution25/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution25/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution25/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution25/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution25/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution25/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution25/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution25/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution25/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution25/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution25/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution25/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution25/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution25/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution26
+GROUP   iRIC/iRICZone/FlowSolution26/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution26/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution26/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution26/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution26/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution26/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution26/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution26/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution26/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution26/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution26/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution26/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution26/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution26/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution26/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution26/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution26/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution26/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution27
+GROUP   iRIC/iRICZone/FlowSolution27/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution27/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution27/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution27/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution27/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution27/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution27/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution27/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution27/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution27/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution27/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution27/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution27/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution27/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution27/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution27/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution27/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution27/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution28
+GROUP   iRIC/iRICZone/FlowSolution28/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution28/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution28/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution28/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution28/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution28/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution28/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution28/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution28/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution28/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution28/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution28/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution28/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution28/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution28/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution28/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution28/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution28/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution29
+GROUP   iRIC/iRICZone/FlowSolution29/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution29/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution29/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution29/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution29/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution29/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution29/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution29/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution29/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution29/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution29/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution29/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution29/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution29/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution29/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution29/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution29/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution29/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution3
+GROUP   iRIC/iRICZone/FlowSolution3/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution3/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution3/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution3/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution3/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution3/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution3/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution3/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution3/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution3/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution3/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution3/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution3/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution3/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution3/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution3/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution3/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution3/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution30
+GROUP   iRIC/iRICZone/FlowSolution30/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution30/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution30/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution30/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution30/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution30/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution30/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution30/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution30/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution30/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution30/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution30/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution30/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution30/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution30/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution30/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution30/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution30/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution31
+GROUP   iRIC/iRICZone/FlowSolution31/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution31/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution31/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution31/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution31/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution31/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution31/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution31/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution31/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution31/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution31/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution31/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution31/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution31/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution31/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution31/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution31/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution31/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution32
+GROUP   iRIC/iRICZone/FlowSolution32/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution32/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution32/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution32/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution32/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution32/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution32/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution32/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution32/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution32/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution32/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution32/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution32/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution32/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution32/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution32/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution32/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution32/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution33
+GROUP   iRIC/iRICZone/FlowSolution33/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution33/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution33/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution33/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution33/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution33/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution33/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution33/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution33/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution33/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution33/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution33/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution33/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution33/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution33/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution33/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution33/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution33/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution34
+GROUP   iRIC/iRICZone/FlowSolution34/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution34/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution34/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution34/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution34/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution34/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution34/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution34/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution34/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution34/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution34/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution34/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution34/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution34/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution34/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution34/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution34/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution34/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution35
+GROUP   iRIC/iRICZone/FlowSolution35/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution35/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution35/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution35/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution35/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution35/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution35/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution35/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution35/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution35/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution35/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution35/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution35/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution35/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution35/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution35/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution35/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution35/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution36
+GROUP   iRIC/iRICZone/FlowSolution36/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution36/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution36/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution36/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution36/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution36/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution36/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution36/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution36/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution36/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution36/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution36/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution36/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution36/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution36/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution36/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution36/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution36/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution37
+GROUP   iRIC/iRICZone/FlowSolution37/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution37/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution37/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution37/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution37/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution37/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution37/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution37/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution37/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution37/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution37/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution37/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution37/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution37/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution37/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution37/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution37/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution37/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution38
+GROUP   iRIC/iRICZone/FlowSolution38/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution38/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution38/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution38/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution38/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution38/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution38/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution38/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution38/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution38/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution38/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution38/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution38/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution38/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution38/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution38/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution38/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution38/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution39
+GROUP   iRIC/iRICZone/FlowSolution39/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution39/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution39/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution39/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution39/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution39/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution39/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution39/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution39/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution39/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution39/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution39/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution39/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution39/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution39/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution39/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution39/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution39/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution4
+GROUP   iRIC/iRICZone/FlowSolution4/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution4/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution4/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution4/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution4/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution4/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution4/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution4/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution4/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution4/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution4/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution4/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution4/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution4/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution4/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution4/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution4/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution4/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution40
+GROUP   iRIC/iRICZone/FlowSolution40/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution40/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution40/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution40/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution40/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution40/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution40/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution40/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution40/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution40/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution40/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution40/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution40/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution40/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution40/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution40/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution40/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution40/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution41
+GROUP   iRIC/iRICZone/FlowSolution41/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution41/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution41/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution41/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution41/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution41/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution41/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution41/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution41/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution41/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution41/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution41/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution41/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution41/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution41/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution41/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution41/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution41/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution42
+GROUP   iRIC/iRICZone/FlowSolution42/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution42/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution42/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution42/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution42/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution42/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution42/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution42/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution42/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution42/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution42/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution42/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution42/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution42/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution42/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution42/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution42/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution42/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution43
+GROUP   iRIC/iRICZone/FlowSolution43/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution43/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution43/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution43/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution43/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution43/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution43/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution43/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution43/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution43/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution43/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution43/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution43/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution43/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution43/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution43/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution43/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution43/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution44
+GROUP   iRIC/iRICZone/FlowSolution44/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution44/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution44/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution44/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution44/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution44/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution44/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution44/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution44/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution44/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution44/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution44/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution44/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution44/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution44/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution44/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution44/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution44/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution45
+GROUP   iRIC/iRICZone/FlowSolution45/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution45/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution45/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution45/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution45/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution45/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution45/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution45/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution45/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution45/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution45/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution45/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution45/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution45/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution45/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution45/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution45/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution45/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution46
+GROUP   iRIC/iRICZone/FlowSolution46/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution46/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution46/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution46/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution46/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution46/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution46/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution46/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution46/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution46/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution46/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution46/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution46/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution46/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution46/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution46/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution46/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution46/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution47
+GROUP   iRIC/iRICZone/FlowSolution47/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution47/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution47/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution47/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution47/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution47/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution47/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution47/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution47/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution47/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution47/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution47/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution47/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution47/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution47/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution47/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution47/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution47/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution48
+GROUP   iRIC/iRICZone/FlowSolution48/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution48/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution48/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution48/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution48/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution48/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution48/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution48/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution48/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution48/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution48/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution48/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution48/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution48/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution48/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution48/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution48/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution48/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution49
+GROUP   iRIC/iRICZone/FlowSolution49/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution49/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution49/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution49/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution49/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution49/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution49/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution49/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution49/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution49/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution49/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution49/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution49/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution49/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution49/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution49/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution49/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution49/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution5
+GROUP   iRIC/iRICZone/FlowSolution5/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution5/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution5/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution5/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution5/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution5/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution5/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution5/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution5/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution5/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution5/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution5/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution5/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution5/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution5/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution5/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution5/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution5/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution50
+GROUP   iRIC/iRICZone/FlowSolution50/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution50/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution50/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution50/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution50/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution50/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution50/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution50/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution50/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution50/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution50/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution50/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution50/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution50/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution50/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution50/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution50/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution50/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution51
+GROUP   iRIC/iRICZone/FlowSolution51/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution51/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution51/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution51/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution51/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution51/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution51/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution51/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution51/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution51/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution51/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution51/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution51/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution51/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution51/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution51/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution51/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution51/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution52
+GROUP   iRIC/iRICZone/FlowSolution52/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution52/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution52/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution52/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution52/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution52/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution52/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution52/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution52/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution52/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution52/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution52/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution52/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution52/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution52/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution52/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution52/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution52/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution53
+GROUP   iRIC/iRICZone/FlowSolution53/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution53/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution53/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution53/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution53/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution53/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution53/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution53/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution53/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution53/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution53/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution53/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution53/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution53/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution53/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution53/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution53/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution53/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution54
+GROUP   iRIC/iRICZone/FlowSolution54/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution54/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution54/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution54/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution54/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution54/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution54/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution54/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution54/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution54/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution54/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution54/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution54/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution54/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution54/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution54/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution54/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution54/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution55
+GROUP   iRIC/iRICZone/FlowSolution55/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution55/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution55/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution55/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution55/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution55/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution55/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution55/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution55/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution55/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution55/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution55/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution55/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution55/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution55/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution55/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution55/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution55/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution56
+GROUP   iRIC/iRICZone/FlowSolution56/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution56/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution56/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution56/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution56/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution56/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution56/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution56/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution56/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution56/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution56/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution56/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution56/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution56/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution56/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution56/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution56/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution56/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution57
+GROUP   iRIC/iRICZone/FlowSolution57/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution57/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution57/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution57/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution57/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution57/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution57/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution57/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution57/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution57/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution57/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution57/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution57/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution57/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution57/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution57/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution57/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution57/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution58
+GROUP   iRIC/iRICZone/FlowSolution58/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution58/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution58/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution58/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution58/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution58/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution58/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution58/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution58/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution58/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution58/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution58/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution58/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution58/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution58/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution58/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution58/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution58/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution59
+GROUP   iRIC/iRICZone/FlowSolution59/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution59/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution59/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution59/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution59/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution59/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution59/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution59/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution59/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution59/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution59/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution59/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution59/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution59/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution59/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution59/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution59/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution59/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution6
+GROUP   iRIC/iRICZone/FlowSolution6/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution6/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution6/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution6/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution6/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution6/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution6/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution6/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution6/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution6/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution6/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution6/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution6/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution6/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution6/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution6/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution6/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution6/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution60
+GROUP   iRIC/iRICZone/FlowSolution60/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution60/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution60/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution60/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution60/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution60/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution60/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution60/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution60/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution60/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution60/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution60/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution60/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution60/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution60/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution60/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution60/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution60/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution61
+GROUP   iRIC/iRICZone/FlowSolution61/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution61/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution61/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution61/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution61/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution61/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution61/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution61/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution61/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution61/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution61/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution61/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution61/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution61/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution61/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution61/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution61/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution61/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution62
+GROUP   iRIC/iRICZone/FlowSolution62/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution62/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution62/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution62/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution62/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution62/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution62/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution62/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution62/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution62/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution62/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution62/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution62/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution62/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution62/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution62/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution62/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution62/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution63
+GROUP   iRIC/iRICZone/FlowSolution63/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution63/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution63/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution63/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution63/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution63/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution63/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution63/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution63/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution63/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution63/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution63/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution63/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution63/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution63/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution63/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution63/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution63/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution64
+GROUP   iRIC/iRICZone/FlowSolution64/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution64/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution64/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution64/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution64/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution64/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution64/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution64/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution64/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution64/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution64/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution64/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution64/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution64/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution64/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution64/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution64/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution64/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution65
+GROUP   iRIC/iRICZone/FlowSolution65/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution65/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution65/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution65/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution65/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution65/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution65/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution65/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution65/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution65/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution65/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution65/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution65/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution65/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution65/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution65/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution65/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution65/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution66
+GROUP   iRIC/iRICZone/FlowSolution66/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution66/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution66/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution66/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution66/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution66/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution66/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution66/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution66/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution66/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution66/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution66/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution66/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution66/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution66/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution66/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution66/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution66/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution67
+GROUP   iRIC/iRICZone/FlowSolution67/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution67/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution67/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution67/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution67/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution67/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution67/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution67/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution67/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution67/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution67/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution67/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution67/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution67/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution67/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution67/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution67/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution67/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution68
+GROUP   iRIC/iRICZone/FlowSolution68/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution68/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution68/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution68/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution68/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution68/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution68/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution68/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution68/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution68/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution68/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution68/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution68/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution68/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution68/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution68/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution68/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution68/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution69
+GROUP   iRIC/iRICZone/FlowSolution69/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution69/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution69/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution69/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution69/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution69/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution69/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution69/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution69/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution69/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution69/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution69/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution69/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution69/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution69/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution69/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution69/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution69/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution7
+GROUP   iRIC/iRICZone/FlowSolution7/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution7/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution7/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution7/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution7/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution7/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution7/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution7/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution7/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution7/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution7/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution7/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution7/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution7/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution7/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution7/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution7/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution7/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution70
+GROUP   iRIC/iRICZone/FlowSolution70/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution70/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution70/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution70/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution70/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution70/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution70/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution70/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution70/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution70/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution70/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution70/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution70/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution70/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution70/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution70/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution70/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution70/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution71
+GROUP   iRIC/iRICZone/FlowSolution71/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution71/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution71/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution71/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution71/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution71/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution71/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution71/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution71/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution71/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution71/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution71/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution71/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution71/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution71/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution71/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution71/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution71/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution72
+GROUP   iRIC/iRICZone/FlowSolution72/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution72/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution72/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution72/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution72/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution72/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution72/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution72/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution72/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution72/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution72/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution72/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution72/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution72/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution72/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution72/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution72/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution72/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution73
+GROUP   iRIC/iRICZone/FlowSolution73/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution73/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution73/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution73/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution73/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution73/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution73/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution73/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution73/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution73/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution73/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution73/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution73/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution73/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution73/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution73/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution73/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution73/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution74
+GROUP   iRIC/iRICZone/FlowSolution74/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution74/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution74/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution74/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution74/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution74/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution74/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution74/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution74/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution74/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution74/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution74/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution74/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution74/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution74/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution74/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution74/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution74/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution75
+GROUP   iRIC/iRICZone/FlowSolution75/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution75/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution75/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution75/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution75/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution75/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution75/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution75/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution75/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution75/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution75/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution75/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution75/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution75/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution75/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution75/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution75/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution75/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution76
+GROUP   iRIC/iRICZone/FlowSolution76/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution76/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution76/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution76/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution76/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution76/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution76/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution76/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution76/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution76/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution76/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution76/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution76/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution76/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution76/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution76/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution76/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution76/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution77
+GROUP   iRIC/iRICZone/FlowSolution77/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution77/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution77/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution77/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution77/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution77/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution77/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution77/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution77/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution77/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution77/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution77/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution77/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution77/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution77/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution77/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution77/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution77/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution78
+GROUP   iRIC/iRICZone/FlowSolution78/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution78/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution78/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution78/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution78/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution78/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution78/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution78/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution78/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution78/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution78/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution78/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution78/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution78/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution78/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution78/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution78/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution78/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution79
+GROUP   iRIC/iRICZone/FlowSolution79/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution79/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution79/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution79/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution79/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution79/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution79/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution79/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution79/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution79/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution79/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution79/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution79/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution79/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution79/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution79/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution79/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution79/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution8
+GROUP   iRIC/iRICZone/FlowSolution8/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution8/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution8/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution8/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution8/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution8/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution8/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution8/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution8/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution8/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution8/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution8/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution8/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution8/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution8/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution8/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution8/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution8/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution80
+GROUP   iRIC/iRICZone/FlowSolution80/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution80/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution80/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution80/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution80/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution80/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution80/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution80/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution80/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution80/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution80/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution80/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution80/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution80/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution80/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution80/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution80/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution80/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution81
+GROUP   iRIC/iRICZone/FlowSolution81/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution81/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution81/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution81/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution81/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution81/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution81/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution81/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution81/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution81/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution81/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution81/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution81/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution81/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution81/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution81/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution81/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution81/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution82
+GROUP   iRIC/iRICZone/FlowSolution82/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution82/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution82/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution82/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution82/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution82/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution82/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution82/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution82/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution82/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution82/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution82/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution82/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution82/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution82/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution82/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution82/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution82/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution83
+GROUP   iRIC/iRICZone/FlowSolution83/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution83/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution83/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution83/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution83/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution83/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution83/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution83/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution83/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution83/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution83/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution83/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution83/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution83/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution83/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution83/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution83/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution83/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution84
+GROUP   iRIC/iRICZone/FlowSolution84/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution84/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution84/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution84/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution84/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution84/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution84/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution84/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution84/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution84/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution84/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution84/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution84/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution84/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution84/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution84/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution84/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution84/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution85
+GROUP   iRIC/iRICZone/FlowSolution85/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution85/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution85/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution85/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution85/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution85/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution85/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution85/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution85/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution85/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution85/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution85/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution85/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution85/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution85/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution85/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution85/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution85/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution86
+GROUP   iRIC/iRICZone/FlowSolution86/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution86/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution86/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution86/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution86/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution86/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution86/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution86/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution86/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution86/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution86/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution86/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution86/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution86/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution86/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution86/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution86/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution86/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution87
+GROUP   iRIC/iRICZone/FlowSolution87/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution87/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution87/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution87/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution87/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution87/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution87/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution87/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution87/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution87/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution87/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution87/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution87/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution87/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution87/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution87/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution87/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution87/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution88
+GROUP   iRIC/iRICZone/FlowSolution88/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution88/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution88/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution88/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution88/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution88/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution88/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution88/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution88/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution88/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution88/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution88/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution88/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution88/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution88/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution88/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution88/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution88/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution89
+GROUP   iRIC/iRICZone/FlowSolution89/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution89/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution89/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution89/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution89/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution89/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution89/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution89/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution89/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution89/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution89/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution89/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution89/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution89/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution89/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution89/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution89/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution89/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution9
+GROUP   iRIC/iRICZone/FlowSolution9/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution9/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution9/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution9/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution9/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution9/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution9/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution9/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution9/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution9/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution9/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution9/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution9/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution9/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution9/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution9/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution9/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution9/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution90
+GROUP   iRIC/iRICZone/FlowSolution90/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution90/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution90/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution90/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution90/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution90/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution90/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution90/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution90/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution90/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution90/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution90/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution90/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution90/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution90/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution90/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution90/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution90/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution91
+GROUP   iRIC/iRICZone/FlowSolution91/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution91/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution91/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution91/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution91/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution91/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution91/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution91/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution91/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution91/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution91/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution91/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution91/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution91/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution91/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution91/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution91/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution91/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution92
+GROUP   iRIC/iRICZone/FlowSolution92/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution92/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution92/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution92/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution92/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution92/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution92/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution92/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution92/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution92/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution92/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution92/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution92/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution92/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution92/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution92/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution92/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution92/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution93
+GROUP   iRIC/iRICZone/FlowSolution93/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution93/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution93/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution93/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution93/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution93/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution93/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution93/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution93/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution93/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution93/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution93/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution93/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution93/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution93/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution93/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution93/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution93/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution94
+GROUP   iRIC/iRICZone/FlowSolution94/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution94/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution94/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution94/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution94/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution94/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution94/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution94/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution94/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution94/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution94/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution94/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution94/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution94/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution94/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution94/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution94/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution94/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution95
+GROUP   iRIC/iRICZone/FlowSolution95/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution95/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution95/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution95/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution95/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution95/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution95/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution95/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution95/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution95/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution95/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution95/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution95/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution95/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution95/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution95/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution95/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution95/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution96
+GROUP   iRIC/iRICZone/FlowSolution96/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution96/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution96/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution96/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution96/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution96/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution96/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution96/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution96/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution96/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution96/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution96/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution96/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution96/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution96/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution96/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution96/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution96/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution97
+GROUP   iRIC/iRICZone/FlowSolution97/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution97/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution97/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution97/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution97/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution97/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution97/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution97/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution97/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution97/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution97/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution97/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution97/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution97/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution97/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution97/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution97/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution97/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution98
+GROUP   iRIC/iRICZone/FlowSolution98/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution98/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution98/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution98/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution98/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution98/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution98/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution98/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution98/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution98/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution98/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution98/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution98/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution98/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution98/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution98/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution98/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution98/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution99
+GROUP   iRIC/iRICZone/FlowSolution99/BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution99/BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution99/BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution99/BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution99/BaseCase_watersurfaceelevation
+DATASET iRIC/iRICZone/FlowSolution99/BaseCase_watersurfaceelevation/ data
+GROUP   iRIC/iRICZone/FlowSolution99/Case1-BaseCase_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution99/Case1-BaseCase_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution99/Case1-BaseCase_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution99/Case1-BaseCase_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution99/Case1-BaseCase_watersurfaceele
+DATASET iRIC/iRICZone/FlowSolution99/Case1-BaseCase_watersurfaceele/ data
+GROUP   iRIC/iRICZone/FlowSolution99/Case1_velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution99/Case1_velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution99/Case1_velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution99/Case1_velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution99/Case1_watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution99/Case1_watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/GridConditions
+GROUP   iRIC/iRICZone/GridCoordinates
+GROUP   iRIC/iRICZone/GridCoordinates/CoordinateX
+DATASET iRIC/iRICZone/GridCoordinates/CoordinateX/ data
+GROUP   iRIC/iRICZone/GridCoordinates/CoordinateY
+DATASET iRIC/iRICZone/GridCoordinates/CoordinateY/ data
+GROUP   iRIC/iRICZone/ZoneBC
+GROUP   iRIC/iRICZone/ZoneIterativeData
+GROUP   iRIC/iRICZone/ZoneIterativeData/FlowSolutionPointers
+DATASET iRIC/iRICZone/ZoneIterativeData/FlowSolutionPointers/ data
+GROUP   iRIC/iRICZone/ZoneType
+DATASET iRIC/iRICZone/ZoneType/ data

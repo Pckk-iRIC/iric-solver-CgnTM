@@ -1,0 +1,117 @@
+DATASET  format
+DATASET  hdf5version
+GROUP   CGNSLibraryVersion
+DATASET CGNSLibraryVersion/ data
+GROUP   iRIC
+DATASET iRIC/ data
+GROUP   iRIC/BaseIterativeData
+DATASET iRIC/BaseIterativeData/ data
+GROUP   iRIC/BaseIterativeData/TimeValues
+DATASET iRIC/BaseIterativeData/TimeValues/ data
+GROUP   iRIC/BaseIterativeData/discharge(m3s-1)
+DATASET iRIC/BaseIterativeData/discharge(m3s-1)/ data
+GROUP   iRIC/BaseIterativeData/domain_area[m2]
+DATASET iRIC/BaseIterativeData/domain_area[m2]/ data
+GROUP   iRIC/CalculationConditions
+GROUP   iRIC/GeographicData
+GROUP   iRIC/GridComplexConditions
+GROUP   iRIC/SolverInformation
+GROUP   iRIC/iRICZone
+DATASET iRIC/iRICZone/ data
+GROUP   iRIC/iRICZone/FlowCellSolution1
+GROUP   iRIC/iRICZone/FlowCellSolution1/GridLocation
+DATASET iRIC/iRICZone/FlowCellSolution1/GridLocation/ data
+GROUP   iRIC/iRICZone/FlowCellSolution1/cell_area[m2]
+DATASET iRIC/iRICZone/FlowCellSolution1/cell_area[m2]/ data
+GROUP   iRIC/iRICZone/FlowCellSolution1/cell_eta[m]
+DATASET iRIC/iRICZone/FlowCellSolution1/cell_eta[m]/ data
+GROUP   iRIC/iRICZone/FlowCellSolution1/cell_h[m]
+DATASET iRIC/iRICZone/FlowCellSolution1/cell_h[m]/ data
+GROUP   iRIC/iRICZone/FlowCellSolution1/cell_havemax[m]
+DATASET iRIC/iRICZone/FlowCellSolution1/cell_havemax[m]/ data
+GROUP   iRIC/iRICZone/FlowCellSolution1/cell_hmax[m]
+DATASET iRIC/iRICZone/FlowCellSolution1/cell_hmax[m]/ data
+GROUP   iRIC/iRICZone/FlowCellSolution1/cell_hs[m]
+DATASET iRIC/iRICZone/FlowCellSolution1/cell_hs[m]/ data
+GROUP   iRIC/iRICZone/FlowCellSolution1/cell_usta[m_s]
+DATASET iRIC/iRICZone/FlowCellSolution1/cell_usta[m_s]/ data
+GROUP   iRIC/iRICZone/FlowCellSolution1/cell_vti[m_s]
+DATASET iRIC/iRICZone/FlowCellSolution1/cell_vti[m_s]/ data
+GROUP   iRIC/iRICZone/FlowCellSolution1/manning sodo
+DATASET iRIC/iRICZone/FlowCellSolution1/manning sodo/ data
+GROUP   iRIC/iRICZone/FlowCellSolution1/xsec_aa
+DATASET iRIC/iRICZone/FlowCellSolution1/xsec_aa/ data
+GROUP   iRIC/iRICZone/FlowCellSolution1/xsec_dd
+DATASET iRIC/iRICZone/FlowCellSolution1/xsec_dd/ data
+GROUP   iRIC/iRICZone/FlowCellSolution1/xsec_ee
+DATASET iRIC/iRICZone/FlowCellSolution1/xsec_ee/ data
+GROUP   iRIC/iRICZone/FlowCellSolution1/xsec_hh
+DATASET iRIC/iRICZone/FlowCellSolution1/xsec_hh/ data
+GROUP   iRIC/iRICZone/FlowCellSolution1/xsec_rr
+DATASET iRIC/iRICZone/FlowCellSolution1/xsec_rr/ data
+GROUP   iRIC/iRICZone/FlowCellSolution1/xsec_ww
+DATASET iRIC/iRICZone/FlowCellSolution1/xsec_ww/ data
+GROUP   iRIC/iRICZone/FlowIFaceSolution1
+GROUP   iRIC/iRICZone/FlowIFaceSolution1/GridLocation
+DATASET iRIC/iRICZone/FlowIFaceSolution1/GridLocation/ data
+GROUP   iRIC/iRICZone/FlowIFaceSolution1/ebcx_height
+DATASET iRIC/iRICZone/FlowIFaceSolution1/ebcx_height/ data
+GROUP   iRIC/iRICZone/FlowIFaceSolution1/qq_iface
+DATASET iRIC/iRICZone/FlowIFaceSolution1/qq_iface/ data
+GROUP   iRIC/iRICZone/FlowJFaceSolution1
+GROUP   iRIC/iRICZone/FlowJFaceSolution1/GridLocation
+DATASET iRIC/iRICZone/FlowJFaceSolution1/GridLocation/ data
+GROUP   iRIC/iRICZone/FlowJFaceSolution1/ebcy_height
+DATASET iRIC/iRICZone/FlowJFaceSolution1/ebcy_height/ data
+GROUP   iRIC/iRICZone/FlowSolution1
+GROUP   iRIC/iRICZone/FlowSolution1/Usta[ms-1]
+DATASET iRIC/iRICZone/FlowSolution1/Usta[ms-1]/ data
+GROUP   iRIC/iRICZone/FlowSolution1/crosssectionalavebedelev(m)
+DATASET iRIC/iRICZone/FlowSolution1/crosssectionalavebedelev(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution1/crosssectionalavewaterlevel(m)
+DATASET iRIC/iRICZone/FlowSolution1/crosssectionalavewaterlevel(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution1/crosssectionalminbedelev(m)
+DATASET iRIC/iRICZone/FlowSolution1/crosssectionalminbedelev(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution1/depth(m)
+DATASET iRIC/iRICZone/FlowSolution1/depth(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution1/elevation(m)
+DATASET iRIC/iRICZone/FlowSolution1/elevation(m)/ data
+GROUP   iRIC/iRICZone/FlowSolution1/froudenumber
+DATASET iRIC/iRICZone/FlowSolution1/froudenumber/ data
+GROUP   iRIC/iRICZone/FlowSolution1/ibc
+DATASET iRIC/iRICZone/FlowSolution1/ibc/ data
+GROUP   iRIC/iRICZone/FlowSolution1/shearstress(nm-2)
+DATASET iRIC/iRICZone/FlowSolution1/shearstress(nm-2)/ data
+GROUP   iRIC/iRICZone/FlowSolution1/velocity(ms-1)X
+DATASET iRIC/iRICZone/FlowSolution1/velocity(ms-1)X/ data
+GROUP   iRIC/iRICZone/FlowSolution1/velocity(ms-1)Y
+DATASET iRIC/iRICZone/FlowSolution1/velocity(ms-1)Y/ data
+GROUP   iRIC/iRICZone/FlowSolution1/vorticity(s-1)
+DATASET iRIC/iRICZone/FlowSolution1/vorticity(s-1)/ data
+GROUP   iRIC/iRICZone/FlowSolution1/watersurfaceelevation(m)
+DATASET iRIC/iRICZone/FlowSolution1/watersurfaceelevation(m)/ data
+GROUP   iRIC/iRICZone/GridConditions
+GROUP   iRIC/iRICZone/GridCoordinates
+GROUP   iRIC/iRICZone/GridCoordinates/CoordinateX
+DATASET iRIC/iRICZone/GridCoordinates/CoordinateX/ data
+GROUP   iRIC/iRICZone/GridCoordinates/CoordinateY
+DATASET iRIC/iRICZone/GridCoordinates/CoordinateY/ data
+GROUP   iRIC/iRICZone/GridCoordinatesForSolution1
+GROUP   iRIC/iRICZone/GridCoordinatesForSolution1/CoordinateX
+DATASET iRIC/iRICZone/GridCoordinatesForSolution1/CoordinateX/ data
+GROUP   iRIC/iRICZone/GridCoordinatesForSolution1/CoordinateY
+DATASET iRIC/iRICZone/GridCoordinatesForSolution1/CoordinateY/ data
+GROUP   iRIC/iRICZone/ZoneBC
+GROUP   iRIC/iRICZone/ZoneIterativeData
+GROUP   iRIC/iRICZone/ZoneIterativeData/FlowCellSolutionPointers
+DATASET iRIC/iRICZone/ZoneIterativeData/FlowCellSolutionPointers/ data
+GROUP   iRIC/iRICZone/ZoneIterativeData/FlowIFaceSolutionPointers
+DATASET iRIC/iRICZone/ZoneIterativeData/FlowIFaceSolutionPointers/ data
+GROUP   iRIC/iRICZone/ZoneIterativeData/FlowJFaceSolutionPointers
+DATASET iRIC/iRICZone/ZoneIterativeData/FlowJFaceSolutionPointers/ data
+GROUP   iRIC/iRICZone/ZoneIterativeData/FlowSolutionPointers
+DATASET iRIC/iRICZone/ZoneIterativeData/FlowSolutionPointers/ data
+GROUP   iRIC/iRICZone/ZoneIterativeData/GridCoordinatesPointers
+DATASET iRIC/iRICZone/ZoneIterativeData/GridCoordinatesPointers/ data
+GROUP   iRIC/iRICZone/ZoneType
+DATASET iRIC/iRICZone/ZoneType/ data

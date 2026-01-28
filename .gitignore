@@ -1,0 +1,7 @@
+data
+*.log
+.venv
+venv
+docs/internal/v4_jp
+dist
+

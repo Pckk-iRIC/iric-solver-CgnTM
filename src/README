@@ -1,0 +1,47 @@
+CgnTM
+
+概要
+iRIC の分割出力された CGNS (Solution*.cgn) を統合し、Case1.cgn 相当の時系列 CGNS を生成するソルバーです。
+入力は .ipro またはプロジェクトフォルダで、出力は同じ形式のプロジェクトになります。
+
+iRIC の入力項目
+- input_type
+  - 0: ipro
+  - 1: プロジェクトフォルダ
+  - 2: resultフォルダ
+- calc_ipro (input_type = 0 のとき有効)
+- calc_folder (input_type = 1 のとき有効)
+- result_dir_input (input_type = 2 のとき有効)
+- output_dir
+- output_name_mode (0: Case1.cgn / 1: 別名)
+- output_cgns_name (output_name_mode = 1 のとき有効)
+- options
+  - result_subdir (既定: result, プロジェクト入力時のみ)
+  - pattern (既定: Solution*.cgn)
+  - time_source (ファイル名 / CGNS の TimeValues)
+  - missing_policy (error / skip)
+  - dry_run (検査のみ)
+
+時刻の取得
+- ファイル名から取得: ファイル名末尾の連続数字を時刻にします。
+  数字が無い場合はエラーになります。
+  例: Solution0010.cgn -> 10
+- CGNS の TimeValues から取得: iRIC/BaseIterativeData/TimeValues[0] を使用します。
+  取得できない場合はエラーになります。
+  注: 時刻取得の失敗はスキップされません。
+
+出力
+- 入力が .ipro / プロジェクトフォルダの場合は、出力先フォルダに入力名と同名のプロジェクトフォルダを作成します。
+  例: output_dir\CaseA\Case1.cgn (output_name_mode=0)
+- 入力が .ipro の場合は出力フォルダを zip 化して output_dir\CaseA.ipro を作成し、
+  その後フォルダを削除します。
+- 入力が result フォルダの場合は、output_dir に CGNS を出力します。
+- output_name_mode=1 の場合は output_cgns_name で出力します。
+- 出力先に同名のプロジェクトフォルダ/iproがある場合はエラーになります。
+- 統合後、分割 CGNS フォルダ (result_subdir) は出力プロジェクトから削除します（プロジェクト入力時のみ）。
+
+
+注意点
+- プロジェクトフォルダ入力には project.xml が必要です。
+- 格子サイズが一致しない場合はエラーになります。
+- 出力時刻の順序はファイル名の自然順に従います。

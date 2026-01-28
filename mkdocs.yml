@@ -1,0 +1,9 @@
+site_name: CgnTM ユーザーマニュアル
+docs_dir: docs/user
+site_dir: site
+theme:
+  name: readthedocs
+nav:
+  - ホーム: index.md
+  - 使い方: usage.md
+  - ダウンロードと配置: install.md

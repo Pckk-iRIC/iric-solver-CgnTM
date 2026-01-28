@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SolverDefinition
+	name="CgnTM"
+	caption="CgnTM"
+	version="1.0.2"
+	copyright="Pckk"
+	release="2026.01.28"
+	homepage="https://www.pacific.co.jp/"
+	executable="run_solver.bat"
+	gridtype="structured2d"
+	iterationtype="time"
+>
+	<CalculationCondition>
+		<Tab name="io" caption="入出力">
+			<Item name="input_type" caption="入力の種類">
+				<Definition valueType="integer" default="0">
+					<Enumerations>
+						<Enumeration value="0" caption="iproを指定" />
+						<Enumeration value="1" caption="プロジェクトフォルダを指定" />
+						<Enumeration value="2" caption="resultフォルダを指定" />
+					</Enumerations>
+				</Definition>
+			</Item>
+
+			<Item name="calc_ipro" caption="入力ipro">
+				<Definition valueType="filename" default="">
+					<Condition type="isEqual" target="input_type" value="0" />
+				</Definition>
+			</Item>
+
+			<Item name="calc_folder" caption="入力プロジェクトフォルダ">
+				<Definition valueType="foldername" default="">
+					<Condition type="isEqual" target="input_type" value="1" />
+				</Definition>
+			</Item>
+
+			<Item name="result_dir_input" caption="入力resultフォルダ">
+				<Definition valueType="foldername" default="">
+					<Condition type="isEqual" target="input_type" value="2" />
+				</Definition>
+			</Item>
+
+			<Item name="output_dir" caption="出力先フォルダ">
+				<Definition valueType="foldername" default="">
+				</Definition>
+			</Item>
+
+			<Item name="output_name_mode" caption="出力ファイル名">
+				<Definition valueType="integer" default="0">
+					<Enumerations>
+						<Enumeration value="0" caption="Case1.cgn に上書き/作成" />
+						<Enumeration value="1" caption="別名で出力" />
+					</Enumerations>
+				</Definition>
+			</Item>
+
+			<Item name="output_cgns_name" caption="出力CGNSファイル名">
+				<Definition valueType="string" default="Merged_Solution.cgn">
+					<Condition type="isEqual" target="output_name_mode" value="1" />
+				</Definition>
+			</Item>
+		</Tab>
+
+		<Tab name="options" caption="詳細設定">
+			<Item name="result_subdir" caption="分割CGNS格納フォルダ名">
+				<Definition valueType="string" default="result">
+					<Condition type="or">
+						<Condition type="isEqual" target="input_type" value="0" />
+						<Condition type="isEqual" target="input_type" value="1" />
+					</Condition>
+				</Definition>
+			</Item>
+			<Item name="pattern" caption="対象ファイルパターン">
+				<Definition valueType="string" default="Solution*.cgn">
+				</Definition>
+			</Item>
+			<Item name="time_source" caption="時刻の取得元">
+				<Definition valueType="integer" default="1">
+					<Enumerations>
+						<Enumeration value="0" caption="ファイル名から取得" />
+						<Enumeration value="1" caption="CGNSのTimeValuesから取得" />
+					</Enumerations>
+				</Definition>
+			</Item>
+			<Item name="missing_policy" caption="欠損時の扱い">
+				<Definition valueType="integer" default="0">
+					<Enumerations>
+						<Enumeration value="0" caption="エラーにする" />
+						<Enumeration value="1" caption="欠損ステップをスキップする" />
+					</Enumerations>
+				</Definition>
+			</Item>
+			<Item name="dry_run" caption="dry-run(検査のみ)">
+				<Definition valueType="integer" default="0">
+					<Enumerations>
+						<Enumeration value="0" caption="実行する(出力あり)" />
+						<Enumeration value="1" caption="検査のみ(出力しない)" />
+					</Enumerations>
+				</Definition>
+			</Item>
+		</Tab>
+	</CalculationCondition>
+</SolverDefinition>

@@ -1,0 +1,884 @@
+DATASET  format
+DATASET  hdf5version
+GROUP   CGNSLibraryVersion
+DATASET CGNSLibraryVersion/ data
+GROUP   iRIC
+DATASET iRIC/ data
+GROUP   iRIC/CalculationConditions
+GROUP   iRIC/CalculationConditions/alpha_aca
+GROUP   iRIC/CalculationConditions/alpha_aca/Value
+DATASET iRIC/CalculationConditions/alpha_aca/Value/ data
+GROUP   iRIC/CalculationConditions/alpha_aca_bed
+GROUP   iRIC/CalculationConditions/alpha_aca_bed/Value
+DATASET iRIC/CalculationConditions/alpha_aca_bed/Value/ data
+GROUP   iRIC/CalculationConditions/bet_max
+GROUP   iRIC/CalculationConditions/bet_max/Value
+DATASET iRIC/CalculationConditions/bet_max/Value/ data
+GROUP   iRIC/CalculationConditions/bh_slope
+GROUP   iRIC/CalculationConditions/bh_slope/Value
+DATASET iRIC/CalculationConditions/bh_slope/Value/ data
+GROUP   iRIC/CalculationConditions/c_tree
+GROUP   iRIC/CalculationConditions/c_tree/Value
+DATASET iRIC/CalculationConditions/c_tree/Value/ data
+GROUP   iRIC/CalculationConditions/cflx
+GROUP   iRIC/CalculationConditions/cflx/Value
+DATASET iRIC/CalculationConditions/cflx/Value/ data
+GROUP   iRIC/CalculationConditions/coef_tsc
+GROUP   iRIC/CalculationConditions/coef_tsc/Value
+DATASET iRIC/CalculationConditions/coef_tsc/Value/ data
+GROUP   iRIC/CalculationConditions/csbar0
+GROUP   iRIC/CalculationConditions/csbar0/Value
+DATASET iRIC/CalculationConditions/csbar0/Value/ data
+GROUP   iRIC/CalculationConditions/cse
+GROUP   iRIC/CalculationConditions/cse/Value
+DATASET iRIC/CalculationConditions/cse/Value/ data
+GROUP   iRIC/CalculationConditions/depth_vege_in
+GROUP   iRIC/CalculationConditions/depth_vege_in/Value
+DATASET iRIC/CalculationConditions/depth_vege_in/Value/ data
+GROUP   iRIC/CalculationConditions/dex_wd_time
+GROUP   iRIC/CalculationConditions/dex_wd_time/Value
+DATASET iRIC/CalculationConditions/dex_wd_time/Value/ data
+GROUP   iRIC/CalculationConditions/dh_heisuii_max
+GROUP   iRIC/CalculationConditions/dh_heisuii_max/Value
+DATASET iRIC/CalculationConditions/dh_heisuii_max/Value/ data
+GROUP   iRIC/CalculationConditions/dh_heisuii_max2
+GROUP   iRIC/CalculationConditions/dh_heisuii_max2/Value
+DATASET iRIC/CalculationConditions/dh_heisuii_max2/Value/ data
+GROUP   iRIC/CalculationConditions/diam
+GROUP   iRIC/CalculationConditions/diam/Value
+DATASET iRIC/CalculationConditions/diam/Value/ data
+GROUP   iRIC/CalculationConditions/discharge_waterlevel
+GROUP   iRIC/CalculationConditions/discharge_waterlevel/days
+DATASET iRIC/CalculationConditions/discharge_waterlevel/days/ data
+GROUP   iRIC/CalculationConditions/discharge_waterlevel/discharge
+DATASET iRIC/CalculationConditions/discharge_waterlevel/discharge/ data
+GROUP   iRIC/CalculationConditions/discharge_waterlevel/ivegegrow
+DATASET iRIC/CalculationConditions/discharge_waterlevel/ivegegrow/ data
+GROUP   iRIC/CalculationConditions/discharge_waterlevel/ivegein
+DATASET iRIC/CalculationConditions/discharge_waterlevel/ivegein/ data
+GROUP   iRIC/CalculationConditions/discharge_waterlevel/time
+DATASET iRIC/CalculationConditions/discharge_waterlevel/time/ data
+GROUP   iRIC/CalculationConditions/discharge_waterlevel/water_level
+DATASET iRIC/CalculationConditions/discharge_waterlevel/water_level/ data
+GROUP   iRIC/CalculationConditions/div_height
+GROUP   iRIC/CalculationConditions/div_height/Value
+DATASET iRIC/CalculationConditions/div_height/Value/ data
+GROUP   iRIC/CalculationConditions/dt
+GROUP   iRIC/CalculationConditions/dt/Value
+DATASET iRIC/CalculationConditions/dt/Value/ data
+GROUP   iRIC/CalculationConditions/dz_vegelost0
+GROUP   iRIC/CalculationConditions/dz_vegelost0/Value
+DATASET iRIC/CalculationConditions/dz_vegelost0/Value/ data
+GROUP   iRIC/CalculationConditions/dz_vegelost1
+GROUP   iRIC/CalculationConditions/dz_vegelost1/Value
+DATASET iRIC/CalculationConditions/dz_vegelost1/Value/ data
+GROUP   iRIC/CalculationConditions/e_d
+GROUP   iRIC/CalculationConditions/e_d/Value
+DATASET iRIC/CalculationConditions/e_d/Value/ data
+GROUP   iRIC/CalculationConditions/e_m
+GROUP   iRIC/CalculationConditions/e_m/Value
+DATASET iRIC/CalculationConditions/e_m/Value/ data
+GROUP   iRIC/CalculationConditions/e_m0
+GROUP   iRIC/CalculationConditions/e_m0/Value
+DATASET iRIC/CalculationConditions/e_m0/Value/ data
+GROUP   iRIC/CalculationConditions/e_thick
+GROUP   iRIC/CalculationConditions/e_thick/Value
+DATASET iRIC/CalculationConditions/e_thick/Value/ data
+GROUP   iRIC/CalculationConditions/flow_qmin
+GROUP   iRIC/CalculationConditions/flow_qmin/Value
+DATASET iRIC/CalculationConditions/flow_qmin/Value/ data
+GROUP   iRIC/CalculationConditions/h_down
+GROUP   iRIC/CalculationConditions/h_down/Value
+DATASET iRIC/CalculationConditions/h_down/Value/ data
+GROUP   iRIC/CalculationConditions/h_slope
+GROUP   iRIC/CalculationConditions/h_slope/Value
+DATASET iRIC/CalculationConditions/h_slope/Value/ data
+GROUP   iRIC/CalculationConditions/hcal_switching_ratio
+GROUP   iRIC/CalculationConditions/hcal_switching_ratio/Value
+DATASET iRIC/CalculationConditions/hcal_switching_ratio/Value/ data
+GROUP   iRIC/CalculationConditions/hmin0
+GROUP   iRIC/CalculationConditions/hmin0/Value
+DATASET iRIC/CalculationConditions/hmin0/Value/ data
+GROUP   iRIC/CalculationConditions/hmin_qbs
+GROUP   iRIC/CalculationConditions/hmin_qbs/Value
+DATASET iRIC/CalculationConditions/hmin_qbs/Value/ data
+GROUP   iRIC/CalculationConditions/hq_a
+GROUP   iRIC/CalculationConditions/hq_a/Value
+DATASET iRIC/CalculationConditions/hq_a/Value/ data
+GROUP   iRIC/CalculationConditions/hq_b
+GROUP   iRIC/CalculationConditions/hq_b/Value
+DATASET iRIC/CalculationConditions/hq_b/Value/ data
+GROUP   iRIC/CalculationConditions/hs_manning
+GROUP   iRIC/CalculationConditions/hs_manning/fdepth
+DATASET iRIC/CalculationConditions/hs_manning/fdepth/ data
+GROUP   iRIC/CalculationConditions/hs_manning/sn10
+DATASET iRIC/CalculationConditions/hs_manning/sn10/ data
+GROUP   iRIC/CalculationConditions/hs_manning/sn11
+DATASET iRIC/CalculationConditions/hs_manning/sn11/ data
+GROUP   iRIC/CalculationConditions/hs_manning/sn12
+DATASET iRIC/CalculationConditions/hs_manning/sn12/ data
+GROUP   iRIC/CalculationConditions/hs_manning/sn13
+DATASET iRIC/CalculationConditions/hs_manning/sn13/ data
+GROUP   iRIC/CalculationConditions/hs_manning/sn14
+DATASET iRIC/CalculationConditions/hs_manning/sn14/ data
+GROUP   iRIC/CalculationConditions/hs_manning/sn15
+DATASET iRIC/CalculationConditions/hs_manning/sn15/ data
+GROUP   iRIC/CalculationConditions/hs_manning/sn16
+DATASET iRIC/CalculationConditions/hs_manning/sn16/ data
+GROUP   iRIC/CalculationConditions/hs_manning/sn17
+DATASET iRIC/CalculationConditions/hs_manning/sn17/ data
+GROUP   iRIC/CalculationConditions/hs_manning/sn18
+DATASET iRIC/CalculationConditions/hs_manning/sn18/ data
+GROUP   iRIC/CalculationConditions/hs_manning/sn19
+DATASET iRIC/CalculationConditions/hs_manning/sn19/ data
+GROUP   iRIC/CalculationConditions/i_flow
+GROUP   iRIC/CalculationConditions/i_flow/Value
+DATASET iRIC/CalculationConditions/i_flow/Value/ data
+GROUP   iRIC/CalculationConditions/i_sec_hour
+GROUP   iRIC/CalculationConditions/i_sec_hour/Value
+DATASET iRIC/CalculationConditions/i_sec_hour/Value/ data
+GROUP   iRIC/CalculationConditions/i_t1
+GROUP   iRIC/CalculationConditions/i_t1/Value
+DATASET iRIC/CalculationConditions/i_t1/Value/ data
+GROUP   iRIC/CalculationConditions/i_t2
+GROUP   iRIC/CalculationConditions/i_t2/Value
+DATASET iRIC/CalculationConditions/i_t2/Value/ data
+GROUP   iRIC/CalculationConditions/icflx
+GROUP   iRIC/CalculationConditions/icflx/Value
+DATASET iRIC/CalculationConditions/icflx/Value/ data
+GROUP   iRIC/CalculationConditions/id_qb_mix_in
+GROUP   iRIC/CalculationConditions/id_qb_mix_in/Value
+DATASET iRIC/CalculationConditions/id_qb_mix_in/Value/ data
+GROUP   iRIC/CalculationConditions/iend_aca
+GROUP   iRIC/CalculationConditions/iend_aca/Value
+DATASET iRIC/CalculationConditions/iend_aca/Value/ data
+GROUP   iRIC/CalculationConditions/ifqbk
+GROUP   iRIC/CalculationConditions/ifqbk/Value
+DATASET iRIC/CalculationConditions/ifqbk/Value/ data
+GROUP   iRIC/CalculationConditions/ifqsuk
+GROUP   iRIC/CalculationConditions/ifqsuk/Value
+DATASET iRIC/CalculationConditions/ifqsuk/Value/ data
+GROUP   iRIC/CalculationConditions/imodel
+GROUP   iRIC/CalculationConditions/imodel/Value
+DATASET iRIC/CalculationConditions/imodel/Value/ data
+GROUP   iRIC/CalculationConditions/istart_aca
+GROUP   iRIC/CalculationConditions/istart_aca/Value
+DATASET iRIC/CalculationConditions/istart_aca/Value/ data
+GROUP   iRIC/CalculationConditions/iterm_x
+GROUP   iRIC/CalculationConditions/iterm_x/Value
+DATASET iRIC/CalculationConditions/iterm_x/Value/ data
+GROUP   iRIC/CalculationConditions/ivege_fomula
+GROUP   iRIC/CalculationConditions/ivege_fomula/Value
+DATASET iRIC/CalculationConditions/ivege_fomula/Value/ data
+GROUP   iRIC/CalculationConditions/ivege_fomula2
+GROUP   iRIC/CalculationConditions/ivege_fomula2/Value
+DATASET iRIC/CalculationConditions/ivege_fomula2/Value/ data
+GROUP   iRIC/CalculationConditions/ivegelost
+GROUP   iRIC/CalculationConditions/ivegelost/Value
+DATASET iRIC/CalculationConditions/ivegelost/Value/ data
+GROUP   iRIC/CalculationConditions/j_aca
+GROUP   iRIC/CalculationConditions/j_aca/Value
+DATASET iRIC/CalculationConditions/j_aca/Value/ data
+GROUP   iRIC/CalculationConditions/j_bedload
+GROUP   iRIC/CalculationConditions/j_bedload/Value
+DATASET iRIC/CalculationConditions/j_bedload/Value/ data
+GROUP   iRIC/CalculationConditions/j_cip
+GROUP   iRIC/CalculationConditions/j_cip/Value
+DATASET iRIC/CalculationConditions/j_cip/Value/ data
+GROUP   iRIC/CalculationConditions/j_collaps
+GROUP   iRIC/CalculationConditions/j_collaps/Value
+DATASET iRIC/CalculationConditions/j_collaps/Value/ data
+GROUP   iRIC/CalculationConditions/j_conf
+GROUP   iRIC/CalculationConditions/j_conf/Value
+DATASET iRIC/CalculationConditions/j_conf/Value/ data
+GROUP   iRIC/CalculationConditions/j_hq
+GROUP   iRIC/CalculationConditions/j_hq/Value
+DATASET iRIC/CalculationConditions/j_hq/Value/ data
+GROUP   iRIC/CalculationConditions/j_m1
+GROUP   iRIC/CalculationConditions/j_m1/Value
+DATASET iRIC/CalculationConditions/j_m1/Value/ data
+GROUP   iRIC/CalculationConditions/j_m2
+GROUP   iRIC/CalculationConditions/j_m2/Value
+DATASET iRIC/CalculationConditions/j_m2/Value/ data
+GROUP   iRIC/CalculationConditions/j_manning
+GROUP   iRIC/CalculationConditions/j_manning/Value
+DATASET iRIC/CalculationConditions/j_manning/Value/ data
+GROUP   iRIC/CalculationConditions/j_mix
+GROUP   iRIC/CalculationConditions/j_mix/Value
+DATASET iRIC/CalculationConditions/j_mix/Value/ data
+GROUP   iRIC/CalculationConditions/j_mix_dis
+GROUP   iRIC/CalculationConditions/j_mix_dis/Value
+DATASET iRIC/CalculationConditions/j_mix_dis/Value/ data
+GROUP   iRIC/CalculationConditions/j_mix_dis_dep
+GROUP   iRIC/CalculationConditions/j_mix_dis_dep/Value
+DATASET iRIC/CalculationConditions/j_mix_dis_dep/Value/ data
+GROUP   iRIC/CalculationConditions/j_qb_vec
+GROUP   iRIC/CalculationConditions/j_qb_vec/Value
+DATASET iRIC/CalculationConditions/j_qb_vec/Value/ data
+GROUP   iRIC/CalculationConditions/j_qbqs
+GROUP   iRIC/CalculationConditions/j_qbqs/Value
+DATASET iRIC/CalculationConditions/j_qbqs/Value/ data
+GROUP   iRIC/CalculationConditions/j_qbqsupmix
+GROUP   iRIC/CalculationConditions/j_qbqsupmix/Value
+DATASET iRIC/CalculationConditions/j_qbqsupmix/Value/ data
+GROUP   iRIC/CalculationConditions/j_qbs
+GROUP   iRIC/CalculationConditions/j_qbs/Value
+DATASET iRIC/CalculationConditions/j_qbs/Value/ data
+GROUP   iRIC/CalculationConditions/j_qbup
+GROUP   iRIC/CalculationConditions/j_qbup/Value
+DATASET iRIC/CalculationConditions/j_qbup/Value/ data
+GROUP   iRIC/CalculationConditions/j_qsu
+GROUP   iRIC/CalculationConditions/j_qsu/Value
+DATASET iRIC/CalculationConditions/j_qsu/Value/ data
+GROUP   iRIC/CalculationConditions/j_sf
+GROUP   iRIC/CalculationConditions/j_sf/Value
+DATASET iRIC/CalculationConditions/j_sf/Value/ data
+GROUP   iRIC/CalculationConditions/j_slope
+GROUP   iRIC/CalculationConditions/j_slope/Value
+DATASET iRIC/CalculationConditions/j_slope/Value/ data
+GROUP   iRIC/CalculationConditions/j_snu2
+GROUP   iRIC/CalculationConditions/j_snu2/Value
+DATASET iRIC/CalculationConditions/j_snu2/Value/ data
+GROUP   iRIC/CalculationConditions/j_t1
+GROUP   iRIC/CalculationConditions/j_t1/Value
+DATASET iRIC/CalculationConditions/j_t1/Value/ data
+GROUP   iRIC/CalculationConditions/j_t2
+GROUP   iRIC/CalculationConditions/j_t2/Value
+DATASET iRIC/CalculationConditions/j_t2/Value/ data
+GROUP   iRIC/CalculationConditions/j_upstream
+GROUP   iRIC/CalculationConditions/j_upstream/Value
+DATASET iRIC/CalculationConditions/j_upstream/Value/ data
+GROUP   iRIC/CalculationConditions/j_upv
+GROUP   iRIC/CalculationConditions/j_upv/Value
+DATASET iRIC/CalculationConditions/j_upv/Value/ data
+GROUP   iRIC/CalculationConditions/j_upv_slope
+GROUP   iRIC/CalculationConditions/j_upv_slope/Value
+DATASET iRIC/CalculationConditions/j_upv_slope/Value/ data
+GROUP   iRIC/CalculationConditions/j_wl
+GROUP   iRIC/CalculationConditions/j_wl/Value
+DATASET iRIC/CalculationConditions/j_wl/Value/ data
+GROUP   iRIC/CalculationConditions/j_zb
+GROUP   iRIC/CalculationConditions/j_zb/Value
+DATASET iRIC/CalculationConditions/j_zb/Value/ data
+GROUP   iRIC/CalculationConditions/jrep
+GROUP   iRIC/CalculationConditions/jrep/Value
+DATASET iRIC/CalculationConditions/jrep/Value/ data
+GROUP   iRIC/CalculationConditions/mixed_dm
+GROUP   iRIC/CalculationConditions/mixed_dm/Value
+DATASET iRIC/CalculationConditions/mixed_dm/Value/ data
+GROUP   iRIC/CalculationConditions/n_parallel
+GROUP   iRIC/CalculationConditions/n_parallel/Value
+DATASET iRIC/CalculationConditions/n_parallel/Value/ data
+GROUP   iRIC/CalculationConditions/n_tempfile
+GROUP   iRIC/CalculationConditions/n_tempfile/Value
+DATASET iRIC/CalculationConditions/n_tempfile/Value/ data
+GROUP   iRIC/CalculationConditions/nm
+GROUP   iRIC/CalculationConditions/nm/Value
+DATASET iRIC/CalculationConditions/nm/Value/ data
+GROUP   iRIC/CalculationConditions/oflg_1d
+GROUP   iRIC/CalculationConditions/oflg_1d/Value
+DATASET iRIC/CalculationConditions/oflg_1d/Value/ data
+GROUP   iRIC/CalculationConditions/oflg_bedslope
+GROUP   iRIC/CalculationConditions/oflg_bedslope/Value
+DATASET iRIC/CalculationConditions/oflg_bedslope/Value/ data
+GROUP   iRIC/CalculationConditions/oflg_cck
+GROUP   iRIC/CalculationConditions/oflg_cck/Value
+DATASET iRIC/CalculationConditions/oflg_cck/Value/ data
+GROUP   iRIC/CalculationConditions/oflg_cell_area
+GROUP   iRIC/CalculationConditions/oflg_cell_area/Value
+DATASET iRIC/CalculationConditions/oflg_cell_area/Value/ data
+GROUP   iRIC/CalculationConditions/oflg_fix_cell
+GROUP   iRIC/CalculationConditions/oflg_fix_cell/Value
+DATASET iRIC/CalculationConditions/oflg_fix_cell/Value/ data
+GROUP   iRIC/CalculationConditions/oflg_ppk
+GROUP   iRIC/CalculationConditions/oflg_ppk/Value
+DATASET iRIC/CalculationConditions/oflg_ppk/Value/ data
+GROUP   iRIC/CalculationConditions/oflg_sediment_vol_check
+GROUP   iRIC/CalculationConditions/oflg_sediment_vol_check/Value
+DATASET iRIC/CalculationConditions/oflg_sediment_vol_check/Value/ data
+GROUP   iRIC/CalculationConditions/oflg_tsck
+GROUP   iRIC/CalculationConditions/oflg_tsck/Value
+DATASET iRIC/CalculationConditions/oflg_tsck/Value/ data
+GROUP   iRIC/CalculationConditions/oflg_tsk
+GROUP   iRIC/CalculationConditions/oflg_tsk/Value
+DATASET iRIC/CalculationConditions/oflg_tsk/Value/ data
+GROUP   iRIC/CalculationConditions/oflg_water_vol_check
+GROUP   iRIC/CalculationConditions/oflg_water_vol_check/Value
+DATASET iRIC/CalculationConditions/oflg_water_vol_check/Value/ data
+GROUP   iRIC/CalculationConditions/oflg_xsec_aa
+GROUP   iRIC/CalculationConditions/oflg_xsec_aa/Value
+DATASET iRIC/CalculationConditions/oflg_xsec_aa/Value/ data
+GROUP   iRIC/CalculationConditions/oflg_xsec_dd
+GROUP   iRIC/CalculationConditions/oflg_xsec_dd/Value
+DATASET iRIC/CalculationConditions/oflg_xsec_dd/Value/ data
+GROUP   iRIC/CalculationConditions/oflg_xsec_ee
+GROUP   iRIC/CalculationConditions/oflg_xsec_ee/Value
+DATASET iRIC/CalculationConditions/oflg_xsec_ee/Value/ data
+GROUP   iRIC/CalculationConditions/oflg_xsec_hh
+GROUP   iRIC/CalculationConditions/oflg_xsec_hh/Value
+DATASET iRIC/CalculationConditions/oflg_xsec_hh/Value/ data
+GROUP   iRIC/CalculationConditions/oflg_xsec_qq
+GROUP   iRIC/CalculationConditions/oflg_xsec_qq/Value
+DATASET iRIC/CalculationConditions/oflg_xsec_qq/Value/ data
+GROUP   iRIC/CalculationConditions/oflg_xsec_rr
+GROUP   iRIC/CalculationConditions/oflg_xsec_rr/Value
+DATASET iRIC/CalculationConditions/oflg_xsec_rr/Value/ data
+GROUP   iRIC/CalculationConditions/oflg_xsec_ww
+GROUP   iRIC/CalculationConditions/oflg_xsec_ww/Value
+DATASET iRIC/CalculationConditions/oflg_xsec_ww/Value/ data
+GROUP   iRIC/CalculationConditions/outtime_tmp0
+GROUP   iRIC/CalculationConditions/outtime_tmp0/Value
+DATASET iRIC/CalculationConditions/outtime_tmp0/Value/ data
+GROUP   iRIC/CalculationConditions/outtime_tmp1
+GROUP   iRIC/CalculationConditions/outtime_tmp1/Value
+DATASET iRIC/CalculationConditions/outtime_tmp1/Value/ data
+GROUP   iRIC/CalculationConditions/outtime_tmp2
+GROUP   iRIC/CalculationConditions/outtime_tmp2/Value
+DATASET iRIC/CalculationConditions/outtime_tmp2/Value/ data
+GROUP   iRIC/CalculationConditions/outtime_tmp3
+GROUP   iRIC/CalculationConditions/outtime_tmp3/Value
+DATASET iRIC/CalculationConditions/outtime_tmp3/Value/ data
+GROUP   iRIC/CalculationConditions/outtime_tmp4
+GROUP   iRIC/CalculationConditions/outtime_tmp4/Value
+DATASET iRIC/CalculationConditions/outtime_tmp4/Value/ data
+GROUP   iRIC/CalculationConditions/outtime_tmp5
+GROUP   iRIC/CalculationConditions/outtime_tmp5/Value
+DATASET iRIC/CalculationConditions/outtime_tmp5/Value/ data
+GROUP   iRIC/CalculationConditions/outtime_tmp6
+GROUP   iRIC/CalculationConditions/outtime_tmp6/Value
+DATASET iRIC/CalculationConditions/outtime_tmp6/Value/ data
+GROUP   iRIC/CalculationConditions/outtime_tmp7
+GROUP   iRIC/CalculationConditions/outtime_tmp7/Value
+DATASET iRIC/CalculationConditions/outtime_tmp7/Value/ data
+GROUP   iRIC/CalculationConditions/outtime_tmp8
+GROUP   iRIC/CalculationConditions/outtime_tmp8/Value
+DATASET iRIC/CalculationConditions/outtime_tmp8/Value/ data
+GROUP   iRIC/CalculationConditions/outtime_tmp9
+GROUP   iRIC/CalculationConditions/outtime_tmp9/Value
+DATASET iRIC/CalculationConditions/outtime_tmp9/Value/ data
+GROUP   iRIC/CalculationConditions/qb_mix_in_cc
+GROUP   iRIC/CalculationConditions/qb_mix_in_cc/Value
+DATASET iRIC/CalculationConditions/qb_mix_in_cc/Value/ data
+GROUP   iRIC/CalculationConditions/qb_mix_in_dt
+GROUP   iRIC/CalculationConditions/qb_mix_in_dt/Value
+DATASET iRIC/CalculationConditions/qb_mix_in_dt/Value/ data
+GROUP   iRIC/CalculationConditions/qb_mix_in_file
+GROUP   iRIC/CalculationConditions/qb_mix_in_file/Value
+DATASET iRIC/CalculationConditions/qb_mix_in_file/Value/ data
+GROUP   iRIC/CalculationConditions/qb_mix_in_km
+GROUP   iRIC/CalculationConditions/qb_mix_in_km/Value
+DATASET iRIC/CalculationConditions/qb_mix_in_km/Value/ data
+GROUP   iRIC/CalculationConditions/qb_mix_in_lambda
+GROUP   iRIC/CalculationConditions/qb_mix_in_lambda/Value
+DATASET iRIC/CalculationConditions/qb_mix_in_lambda/Value/ data
+GROUP   iRIC/CalculationConditions/qs_a_b_max
+GROUP   iRIC/CalculationConditions/qs_a_b_max/Value
+DATASET iRIC/CalculationConditions/qs_a_b_max/Value/ data
+GROUP   iRIC/CalculationConditions/read_flag
+GROUP   iRIC/CalculationConditions/read_flag/Value
+DATASET iRIC/CalculationConditions/read_flag/Value/ data
+GROUP   iRIC/CalculationConditions/rock_a
+GROUP   iRIC/CalculationConditions/rock_a/Value
+DATASET iRIC/CalculationConditions/rock_a/Value/ data
+GROUP   iRIC/CalculationConditions/rock_b
+GROUP   iRIC/CalculationConditions/rock_b/Value
+DATASET iRIC/CalculationConditions/rock_b/Value/ data
+GROUP   iRIC/CalculationConditions/sediment_qmin
+GROUP   iRIC/CalculationConditions/sediment_qmin/Value
+DATASET iRIC/CalculationConditions/sediment_qmin/Value/ data
+GROUP   iRIC/CalculationConditions/snst
+GROUP   iRIC/CalculationConditions/snst/Value
+DATASET iRIC/CalculationConditions/snst/Value/ data
+GROUP   iRIC/CalculationConditions/ster
+GROUP   iRIC/CalculationConditions/ster/Value
+DATASET iRIC/CalculationConditions/ster/Value/ data
+GROUP   iRIC/CalculationConditions/t_out_start
+GROUP   iRIC/CalculationConditions/t_out_start/Value
+DATASET iRIC/CalculationConditions/t_out_start/Value/ data
+GROUP   iRIC/CalculationConditions/tantc
+GROUP   iRIC/CalculationConditions/tantc/Value
+DATASET iRIC/CalculationConditions/tantc/Value/ data
+GROUP   iRIC/CalculationConditions/tausta_vegelost
+GROUP   iRIC/CalculationConditions/tausta_vegelost/Value
+DATASET iRIC/CalculationConditions/tausta_vegelost/Value/ data
+GROUP   iRIC/CalculationConditions/time_tausta_vegelost
+GROUP   iRIC/CalculationConditions/time_tausta_vegelost/Value
+DATASET iRIC/CalculationConditions/time_tausta_vegelost/Value/ data
+GROUP   iRIC/CalculationConditions/time_usta_vegelost
+GROUP   iRIC/CalculationConditions/time_usta_vegelost/Value
+DATASET iRIC/CalculationConditions/time_usta_vegelost/Value/ data
+GROUP   iRIC/CalculationConditions/time_vege_in
+GROUP   iRIC/CalculationConditions/time_vege_in/Value
+DATASET iRIC/CalculationConditions/time_vege_in/Value/ data
+GROUP   iRIC/CalculationConditions/time_vege_in2
+GROUP   iRIC/CalculationConditions/time_vege_in2/Value
+DATASET iRIC/CalculationConditions/time_vege_in2/Value/ data
+GROUP   iRIC/CalculationConditions/tmp_pass
+GROUP   iRIC/CalculationConditions/tmp_pass/Value
+DATASET iRIC/CalculationConditions/tmp_pass/Value/ data
+GROUP   iRIC/CalculationConditions/tmp_readfile
+GROUP   iRIC/CalculationConditions/tmp_readfile/Value
+DATASET iRIC/CalculationConditions/tmp_readfile/Value/ data
+GROUP   iRIC/CalculationConditions/tuk
+GROUP   iRIC/CalculationConditions/tuk/Value
+DATASET iRIC/CalculationConditions/tuk/Value/ data
+GROUP   iRIC/CalculationConditions/upv_slope
+GROUP   iRIC/CalculationConditions/upv_slope/Value
+DATASET iRIC/CalculationConditions/upv_slope/Value/ data
+GROUP   iRIC/CalculationConditions/upv_slope_t
+GROUP   iRIC/CalculationConditions/upv_slope_t/Value
+DATASET iRIC/CalculationConditions/upv_slope_t/Value/ data
+GROUP   iRIC/CalculationConditions/usta_vegelost
+GROUP   iRIC/CalculationConditions/usta_vegelost/Value
+DATASET iRIC/CalculationConditions/usta_vegelost/Value/ data
+GROUP   iRIC/CalculationConditions/vege_dens_end
+GROUP   iRIC/CalculationConditions/vege_dens_end/Value
+DATASET iRIC/CalculationConditions/vege_dens_end/Value/ data
+GROUP   iRIC/CalculationConditions/vege_dens_end2
+GROUP   iRIC/CalculationConditions/vege_dens_end2/Value
+DATASET iRIC/CalculationConditions/vege_dens_end2/Value/ data
+GROUP   iRIC/CalculationConditions/vege_dens_start
+GROUP   iRIC/CalculationConditions/vege_dens_start/Value
+DATASET iRIC/CalculationConditions/vege_dens_start/Value/ data
+GROUP   iRIC/CalculationConditions/vege_dens_start2
+GROUP   iRIC/CalculationConditions/vege_dens_start2/Value
+DATASET iRIC/CalculationConditions/vege_dens_start2/Value/ data
+GROUP   iRIC/CalculationConditions/vege_height_end
+GROUP   iRIC/CalculationConditions/vege_height_end/Value
+DATASET iRIC/CalculationConditions/vege_height_end/Value/ data
+GROUP   iRIC/CalculationConditions/vege_height_end2
+GROUP   iRIC/CalculationConditions/vege_height_end2/Value
+DATASET iRIC/CalculationConditions/vege_height_end2/Value/ data
+GROUP   iRIC/CalculationConditions/vege_height_start
+GROUP   iRIC/CalculationConditions/vege_height_start/Value
+DATASET iRIC/CalculationConditions/vege_height_start/Value/ data
+GROUP   iRIC/CalculationConditions/vege_height_start2
+GROUP   iRIC/CalculationConditions/vege_height_start2/Value
+DATASET iRIC/CalculationConditions/vege_height_start2/Value/ data
+GROUP   iRIC/CalculationConditions/vege_hmax_days
+GROUP   iRIC/CalculationConditions/vege_hmax_days/Value
+DATASET iRIC/CalculationConditions/vege_hmax_days/Value/ data
+GROUP   iRIC/CalculationConditions/vege_hmax_days2
+GROUP   iRIC/CalculationConditions/vege_hmax_days2/Value
+DATASET iRIC/CalculationConditions/vege_hmax_days2/Value/ data
+GROUP   iRIC/CalculationConditions/vege_max_days
+GROUP   iRIC/CalculationConditions/vege_max_days/Value
+DATASET iRIC/CalculationConditions/vege_max_days/Value/ data
+GROUP   iRIC/CalculationConditions/vege_max_days2
+GROUP   iRIC/CalculationConditions/vege_max_days2/Value
+DATASET iRIC/CalculationConditions/vege_max_days2/Value/ data
+GROUP   iRIC/CalculationConditions/vege_rich_a
+GROUP   iRIC/CalculationConditions/vege_rich_a/Value
+DATASET iRIC/CalculationConditions/vege_rich_a/Value/ data
+GROUP   iRIC/CalculationConditions/vege_rich_a2
+GROUP   iRIC/CalculationConditions/vege_rich_a2/Value
+DATASET iRIC/CalculationConditions/vege_rich_a2/Value/ data
+GROUP   iRIC/CalculationConditions/vege_rich_b
+GROUP   iRIC/CalculationConditions/vege_rich_b/Value
+DATASET iRIC/CalculationConditions/vege_rich_b/Value/ data
+GROUP   iRIC/CalculationConditions/vege_rich_b2
+GROUP   iRIC/CalculationConditions/vege_rich_b2/Value
+DATASET iRIC/CalculationConditions/vege_rich_b2/Value/ data
+GROUP   iRIC/CalculationConditions/vege_rich_k
+GROUP   iRIC/CalculationConditions/vege_rich_k/Value
+DATASET iRIC/CalculationConditions/vege_rich_k/Value/ data
+GROUP   iRIC/CalculationConditions/vege_rich_k2
+GROUP   iRIC/CalculationConditions/vege_rich_k2/Value
+DATASET iRIC/CalculationConditions/vege_rich_k2/Value/ data
+GROUP   iRIC/CalculationConditions/vege_rich_m
+GROUP   iRIC/CalculationConditions/vege_rich_m/Value
+DATASET iRIC/CalculationConditions/vege_rich_m/Value/ data
+GROUP   iRIC/CalculationConditions/vege_rich_m2
+GROUP   iRIC/CalculationConditions/vege_rich_m2/Value
+DATASET iRIC/CalculationConditions/vege_rich_m2/Value/ data
+GROUP   iRIC/CalculationConditions/vegein_rate
+GROUP   iRIC/CalculationConditions/vegein_rate/Value
+DATASET iRIC/CalculationConditions/vegein_rate/Value/ data
+GROUP   iRIC/CalculationConditions/vegein_rate2
+GROUP   iRIC/CalculationConditions/vegein_rate2/Value
+DATASET iRIC/CalculationConditions/vegein_rate2/Value/ data
+GROUP   iRIC/CalculationConditions/vjrock
+GROUP   iRIC/CalculationConditions/vjrock/Value
+DATASET iRIC/CalculationConditions/vjrock/Value/ data
+GROUP   iRIC/CalculationConditions/write_flag
+GROUP   iRIC/CalculationConditions/write_flag/Value
+DATASET iRIC/CalculationConditions/write_flag/Value/ data
+GROUP   iRIC/GeographicData
+GROUP   iRIC/GeographicData/Elevation
+GROUP   iRIC/GeographicData/Elevation/1
+GROUP   iRIC/GeographicData/Elevation/1/filename
+DATASET iRIC/GeographicData/Elevation/1/filename/ data
+GROUP   iRIC/GeographicData/Elevation/1/type
+DATASET iRIC/GeographicData/Elevation/1/type/ data
+GROUP   iRIC/GeographicData/Elevation/2
+GROUP   iRIC/GeographicData/Elevation/2/filename
+DATASET iRIC/GeographicData/Elevation/2/filename/ data
+GROUP   iRIC/GeographicData/Elevation/2/type
+DATASET iRIC/GeographicData/Elevation/2/type/ data
+GROUP   iRIC/GeographicData/Elevation_zb
+GROUP   iRIC/GeographicData/Elevation_zb/1
+GROUP   iRIC/GeographicData/Elevation_zb/1/filename
+DATASET iRIC/GeographicData/Elevation_zb/1/filename/ data
+GROUP   iRIC/GeographicData/Elevation_zb/1/type
+DATASET iRIC/GeographicData/Elevation_zb/1/type/ data
+GROUP   iRIC/GeographicData/Fix_movable
+GROUP   iRIC/GeographicData/Fix_movable/1
+GROUP   iRIC/GeographicData/Fix_movable/1/filename
+DATASET iRIC/GeographicData/Fix_movable/1/filename/ data
+GROUP   iRIC/GeographicData/Fix_movable/1/type
+DATASET iRIC/GeographicData/Fix_movable/1/type/ data
+GROUP   iRIC/GeographicData/Fix_movable/2
+GROUP   iRIC/GeographicData/Fix_movable/2/filename
+DATASET iRIC/GeographicData/Fix_movable/2/filename/ data
+GROUP   iRIC/GeographicData/Fix_movable/2/type
+DATASET iRIC/GeographicData/Fix_movable/2/type/ data
+GROUP   iRIC/GeographicData/Obstacle
+GROUP   iRIC/GeographicData/Obstacle/1
+GROUP   iRIC/GeographicData/Obstacle/1/filename
+DATASET iRIC/GeographicData/Obstacle/1/filename/ data
+GROUP   iRIC/GeographicData/Obstacle/1/type
+DATASET iRIC/GeographicData/Obstacle/1/type/ data
+GROUP   iRIC/GeographicData/Sediment_delt
+GROUP   iRIC/GeographicData/Sediment_delt/1
+GROUP   iRIC/GeographicData/Sediment_delt/1/filename
+DATASET iRIC/GeographicData/Sediment_delt/1/filename/ data
+GROUP   iRIC/GeographicData/Sediment_delt/1/type
+DATASET iRIC/GeographicData/Sediment_delt/1/type/ data
+GROUP   iRIC/GeographicData/_referenceinformation
+GROUP   iRIC/GeographicData/_referenceinformation/1
+GROUP   iRIC/GeographicData/_referenceinformation/1/filename
+DATASET iRIC/GeographicData/_referenceinformation/1/filename/ data
+GROUP   iRIC/GeographicData/_referenceinformation/1/type
+DATASET iRIC/GeographicData/_referenceinformation/1/type/ data
+GROUP   iRIC/GeographicData/_referenceinformation/2
+GROUP   iRIC/GeographicData/_referenceinformation/2/filename
+DATASET iRIC/GeographicData/_referenceinformation/2/filename/ data
+GROUP   iRIC/GeographicData/_referenceinformation/2/type
+DATASET iRIC/GeographicData/_referenceinformation/2/type/ data
+GROUP   iRIC/GeographicData/a_snux
+GROUP   iRIC/GeographicData/a_snux/1
+GROUP   iRIC/GeographicData/a_snux/1/filename
+DATASET iRIC/GeographicData/a_snux/1/filename/ data
+GROUP   iRIC/GeographicData/a_snux/1/type
+DATASET iRIC/GeographicData/a_snux/1/type/ data
+GROUP   iRIC/GeographicData/b_snux
+GROUP   iRIC/GeographicData/b_snux/1
+GROUP   iRIC/GeographicData/b_snux/1/filename
+DATASET iRIC/GeographicData/b_snux/1/filename/ data
+GROUP   iRIC/GeographicData/b_snux/1/type
+DATASET iRIC/GeographicData/b_snux/1/type/ data
+GROUP   iRIC/GeographicData/dex_rock_wd0
+GROUP   iRIC/GeographicData/dex_rock_wd0/1
+GROUP   iRIC/GeographicData/dex_rock_wd0/1/filename
+DATASET iRIC/GeographicData/dex_rock_wd0/1/filename/ data
+GROUP   iRIC/GeographicData/dex_rock_wd0/1/type
+DATASET iRIC/GeographicData/dex_rock_wd0/1/type/ data
+GROUP   iRIC/GeographicData/ebcx_height
+GROUP   iRIC/GeographicData/ebcx_height/1
+GROUP   iRIC/GeographicData/ebcx_height/1/filename
+DATASET iRIC/GeographicData/ebcx_height/1/filename/ data
+GROUP   iRIC/GeographicData/ebcx_height/1/type
+DATASET iRIC/GeographicData/ebcx_height/1/type/ data
+GROUP   iRIC/GeographicData/ebcy_height
+GROUP   iRIC/GeographicData/ebcy_height/1
+GROUP   iRIC/GeographicData/ebcy_height/1/filename
+DATASET iRIC/GeographicData/ebcy_height/1/filename/ data
+GROUP   iRIC/GeographicData/ebcy_height/1/type
+DATASET iRIC/GeographicData/ebcy_height/1/type/ data
+GROUP   iRIC/GeographicData/igogan
+GROUP   iRIC/GeographicData/igogan/1
+GROUP   iRIC/GeographicData/igogan/1/filename
+DATASET iRIC/GeographicData/igogan/1/filename/ data
+GROUP   iRIC/GeographicData/igogan/1/type
+DATASET iRIC/GeographicData/igogan/1/type/ data
+GROUP   iRIC/GeographicData/ikado_kussaku
+GROUP   iRIC/GeographicData/ikado_kussaku/1
+GROUP   iRIC/GeographicData/ikado_kussaku/1/filename
+DATASET iRIC/GeographicData/ikado_kussaku/1/filename/ data
+GROUP   iRIC/GeographicData/ikado_kussaku/1/type
+DATASET iRIC/GeographicData/ikado_kussaku/1/type/ data
+GROUP   iRIC/GeographicData/init_dry_bed
+GROUP   iRIC/GeographicData/init_dry_bed/1
+GROUP   iRIC/GeographicData/init_dry_bed/1/filename
+DATASET iRIC/GeographicData/init_dry_bed/1/filename/ data
+GROUP   iRIC/GeographicData/init_dry_bed/1/type
+DATASET iRIC/GeographicData/init_dry_bed/1/type/ data
+GROUP   iRIC/GeographicData/init_water_level
+GROUP   iRIC/GeographicData/init_water_level/1
+GROUP   iRIC/GeographicData/init_water_level/1/filename
+DATASET iRIC/GeographicData/init_water_level/1/filename/ data
+GROUP   iRIC/GeographicData/init_water_level/1/type
+DATASET iRIC/GeographicData/init_water_level/1/type/ data
+GROUP   iRIC/GeographicData/iout_dd_dist
+GROUP   iRIC/GeographicData/iout_dd_dist/1
+GROUP   iRIC/GeographicData/iout_dd_dist/1/filename
+DATASET iRIC/GeographicData/iout_dd_dist/1/filename/ data
+GROUP   iRIC/GeographicData/iout_dd_dist/1/type
+DATASET iRIC/GeographicData/iout_dd_dist/1/type/ data
+GROUP   iRIC/GeographicData/ivege_delx
+GROUP   iRIC/GeographicData/ivege_delx/1
+GROUP   iRIC/GeographicData/ivege_delx/1/filename
+DATASET iRIC/GeographicData/ivege_delx/1/filename/ data
+GROUP   iRIC/GeographicData/ivege_delx/1/type
+DATASET iRIC/GeographicData/ivege_delx/1/type/ data
+GROUP   iRIC/GeographicData/mix_cell
+GROUP   iRIC/GeographicData/mix_cell/1
+GROUP   iRIC/GeographicData/mix_cell/1/filename
+DATASET iRIC/GeographicData/mix_cell/1/filename/ data
+GROUP   iRIC/GeographicData/mix_cell/1/type
+DATASET iRIC/GeographicData/mix_cell/1/type/ data
+GROUP   iRIC/GeographicData/n_okido
+GROUP   iRIC/GeographicData/n_okido/1
+GROUP   iRIC/GeographicData/n_okido/1/filename
+DATASET iRIC/GeographicData/n_okido/1/filename/ data
+GROUP   iRIC/GeographicData/n_okido/1/type
+DATASET iRIC/GeographicData/n_okido/1/type/ data
+GROUP   iRIC/GeographicData/perturbation0
+GROUP   iRIC/GeographicData/perturbation0/1
+GROUP   iRIC/GeographicData/perturbation0/1/filename
+DATASET iRIC/GeographicData/perturbation0/1/filename/ data
+GROUP   iRIC/GeographicData/perturbation0/1/type
+DATASET iRIC/GeographicData/perturbation0/1/type/ data
+GROUP   iRIC/GeographicData/roughness_cell
+GROUP   iRIC/GeographicData/roughness_cell/1
+GROUP   iRIC/GeographicData/roughness_cell/1/filename
+DATASET iRIC/GeographicData/roughness_cell/1/filename/ data
+GROUP   iRIC/GeographicData/roughness_cell/1/type
+DATASET iRIC/GeographicData/roughness_cell/1/type/ data
+GROUP   iRIC/GeographicData/roughness_type
+GROUP   iRIC/GeographicData/roughness_type/1
+GROUP   iRIC/GeographicData/roughness_type/1/filename
+DATASET iRIC/GeographicData/roughness_type/1/filename/ data
+GROUP   iRIC/GeographicData/roughness_type/1/type
+DATASET iRIC/GeographicData/roughness_type/1/type/ data
+GROUP   iRIC/GeographicData/roughness_type/10
+GROUP   iRIC/GeographicData/roughness_type/10/filename
+DATASET iRIC/GeographicData/roughness_type/10/filename/ data
+GROUP   iRIC/GeographicData/roughness_type/10/type
+DATASET iRIC/GeographicData/roughness_type/10/type/ data
+GROUP   iRIC/GeographicData/roughness_type/11
+GROUP   iRIC/GeographicData/roughness_type/11/filename
+DATASET iRIC/GeographicData/roughness_type/11/filename/ data
+GROUP   iRIC/GeographicData/roughness_type/11/type
+DATASET iRIC/GeographicData/roughness_type/11/type/ data
+GROUP   iRIC/GeographicData/roughness_type/2
+GROUP   iRIC/GeographicData/roughness_type/2/filename
+DATASET iRIC/GeographicData/roughness_type/2/filename/ data
+GROUP   iRIC/GeographicData/roughness_type/2/type
+DATASET iRIC/GeographicData/roughness_type/2/type/ data
+GROUP   iRIC/GeographicData/roughness_type/3
+GROUP   iRIC/GeographicData/roughness_type/3/filename
+DATASET iRIC/GeographicData/roughness_type/3/filename/ data
+GROUP   iRIC/GeographicData/roughness_type/3/type
+DATASET iRIC/GeographicData/roughness_type/3/type/ data
+GROUP   iRIC/GeographicData/roughness_type/4
+GROUP   iRIC/GeographicData/roughness_type/4/filename
+DATASET iRIC/GeographicData/roughness_type/4/filename/ data
+GROUP   iRIC/GeographicData/roughness_type/4/type
+DATASET iRIC/GeographicData/roughness_type/4/type/ data
+GROUP   iRIC/GeographicData/roughness_type/5
+GROUP   iRIC/GeographicData/roughness_type/5/filename
+DATASET iRIC/GeographicData/roughness_type/5/filename/ data
+GROUP   iRIC/GeographicData/roughness_type/5/type
+DATASET iRIC/GeographicData/roughness_type/5/type/ data
+GROUP   iRIC/GeographicData/roughness_type/6
+GROUP   iRIC/GeographicData/roughness_type/6/filename
+DATASET iRIC/GeographicData/roughness_type/6/filename/ data
+GROUP   iRIC/GeographicData/roughness_type/6/type
+DATASET iRIC/GeographicData/roughness_type/6/type/ data
+GROUP   iRIC/GeographicData/roughness_type/7
+GROUP   iRIC/GeographicData/roughness_type/7/filename
+DATASET iRIC/GeographicData/roughness_type/7/filename/ data
+GROUP   iRIC/GeographicData/roughness_type/7/type
+DATASET iRIC/GeographicData/roughness_type/7/type/ data
+GROUP   iRIC/GeographicData/roughness_type/8
+GROUP   iRIC/GeographicData/roughness_type/8/filename
+DATASET iRIC/GeographicData/roughness_type/8/filename/ data
+GROUP   iRIC/GeographicData/roughness_type/8/type
+DATASET iRIC/GeographicData/roughness_type/8/type/ data
+GROUP   iRIC/GeographicData/roughness_type/9
+GROUP   iRIC/GeographicData/roughness_type/9/filename
+DATASET iRIC/GeographicData/roughness_type/9/filename/ data
+GROUP   iRIC/GeographicData/roughness_type/9/type
+DATASET iRIC/GeographicData/roughness_type/9/type/ data
+GROUP   iRIC/GeographicData/vege_days
+GROUP   iRIC/GeographicData/vege_days/1
+GROUP   iRIC/GeographicData/vege_days/1/filename
+DATASET iRIC/GeographicData/vege_days/1/filename/ data
+GROUP   iRIC/GeographicData/vege_days/1/type
+DATASET iRIC/GeographicData/vege_days/1/type/ data
+GROUP   iRIC/GeographicData/vege_days2
+GROUP   iRIC/GeographicData/vege_days2/1
+GROUP   iRIC/GeographicData/vege_days2/1/filename
+DATASET iRIC/GeographicData/vege_days2/1/filename/ data
+GROUP   iRIC/GeographicData/vege_days2/1/type
+DATASET iRIC/GeographicData/vege_days2/1/type/ data
+GROUP   iRIC/GeographicData/vege_density
+GROUP   iRIC/GeographicData/vege_density/1
+GROUP   iRIC/GeographicData/vege_density/1/filename
+DATASET iRIC/GeographicData/vege_density/1/filename/ data
+GROUP   iRIC/GeographicData/vege_density/1/type
+DATASET iRIC/GeographicData/vege_density/1/type/ data
+GROUP   iRIC/GeographicData/vege_density/2
+GROUP   iRIC/GeographicData/vege_density/2/filename
+DATASET iRIC/GeographicData/vege_density/2/filename/ data
+GROUP   iRIC/GeographicData/vege_density/2/type
+DATASET iRIC/GeographicData/vege_density/2/type/ data
+GROUP   iRIC/GeographicData/vege_density/3
+GROUP   iRIC/GeographicData/vege_density/3/filename
+DATASET iRIC/GeographicData/vege_density/3/filename/ data
+GROUP   iRIC/GeographicData/vege_density/3/type
+DATASET iRIC/GeographicData/vege_density/3/type/ data
+GROUP   iRIC/GeographicData/vege_density/4
+GROUP   iRIC/GeographicData/vege_density/4/filename
+DATASET iRIC/GeographicData/vege_density/4/filename/ data
+GROUP   iRIC/GeographicData/vege_density/4/type
+DATASET iRIC/GeographicData/vege_density/4/type/ data
+GROUP   iRIC/GeographicData/vege_height
+GROUP   iRIC/GeographicData/vege_height/1
+GROUP   iRIC/GeographicData/vege_height/1/filename
+DATASET iRIC/GeographicData/vege_height/1/filename/ data
+GROUP   iRIC/GeographicData/vege_height/1/type
+DATASET iRIC/GeographicData/vege_height/1/type/ data
+GROUP   iRIC/GeographicData/vege_height/2
+GROUP   iRIC/GeographicData/vege_height/2/filename
+DATASET iRIC/GeographicData/vege_height/2/filename/ data
+GROUP   iRIC/GeographicData/vege_height/2/type
+DATASET iRIC/GeographicData/vege_height/2/type/ data
+GROUP   iRIC/GeographicData/vege_height/3
+GROUP   iRIC/GeographicData/vege_height/3/filename
+DATASET iRIC/GeographicData/vege_height/3/filename/ data
+GROUP   iRIC/GeographicData/vege_height/3/type
+DATASET iRIC/GeographicData/vege_height/3/type/ data
+GROUP   iRIC/GeographicData/vege_height/4
+GROUP   iRIC/GeographicData/vege_height/4/filename
+DATASET iRIC/GeographicData/vege_height/4/filename/ data
+GROUP   iRIC/GeographicData/vege_height/4/type
+DATASET iRIC/GeographicData/vege_height/4/type/ data
+GROUP   iRIC/GridComplexConditions
+GROUP   iRIC/GridComplexConditions/igogan
+GROUP   iRIC/GridComplexConditions/igogan/Item1
+GROUP   iRIC/GridComplexConditions/igogan/Item1/_caption
+GROUP   iRIC/GridComplexConditions/igogan/Item1/_caption/Value
+DATASET iRIC/GridComplexConditions/igogan/Item1/_caption/Value/ data
+GROUP   iRIC/GridComplexConditions/igogan/Item1/_color
+GROUP   iRIC/GridComplexConditions/igogan/Item1/_color/Value
+DATASET iRIC/GridComplexConditions/igogan/Item1/_color/Value/ data
+GROUP   iRIC/GridComplexConditions/igogan/Item1/_isdefault
+GROUP   iRIC/GridComplexConditions/igogan/Item1/_isdefault/Value
+DATASET iRIC/GridComplexConditions/igogan/Item1/_isdefault/Value/ data
+GROUP   iRIC/GridComplexConditions/igogan/Item1/f_gogan_elv
+GROUP   iRIC/GridComplexConditions/igogan/Item1/f_gogan_elv/Value
+DATASET iRIC/GridComplexConditions/igogan/Item1/f_gogan_elv/Value/ data
+GROUP   iRIC/GridComplexConditions/igogan/Item1/gogan_time
+GROUP   iRIC/GridComplexConditions/igogan/Item1/gogan_time/Value
+DATASET iRIC/GridComplexConditions/igogan/Item1/gogan_time/Value/ data
+GROUP   iRIC/GridComplexConditions/ikado_kussaku
+GROUP   iRIC/GridComplexConditions/ikado_kussaku/Item1
+GROUP   iRIC/GridComplexConditions/ikado_kussaku/Item1/_caption
+GROUP   iRIC/GridComplexConditions/ikado_kussaku/Item1/_caption/Value
+DATASET iRIC/GridComplexConditions/ikado_kussaku/Item1/_caption/Value/ data
+GROUP   iRIC/GridComplexConditions/ikado_kussaku/Item1/_color
+GROUP   iRIC/GridComplexConditions/ikado_kussaku/Item1/_color/Value
+DATASET iRIC/GridComplexConditions/ikado_kussaku/Item1/_color/Value/ data
+GROUP   iRIC/GridComplexConditions/ikado_kussaku/Item1/_isdefault
+GROUP   iRIC/GridComplexConditions/ikado_kussaku/Item1/_isdefault/Value
+DATASET iRIC/GridComplexConditions/ikado_kussaku/Item1/_isdefault/Value/ data
+GROUP   iRIC/GridComplexConditions/ikado_kussaku/Item1/f_kussaku_elv
+GROUP   iRIC/GridComplexConditions/ikado_kussaku/Item1/f_kussaku_elv/Value
+DATASET iRIC/GridComplexConditions/ikado_kussaku/Item1/f_kussaku_elv/Value/ data
+GROUP   iRIC/GridComplexConditions/ikado_kussaku/Item1/kussaku_time
+GROUP   iRIC/GridComplexConditions/ikado_kussaku/Item1/kussaku_time/Value
+DATASET iRIC/GridComplexConditions/ikado_kussaku/Item1/kussaku_time/Value/ data
+GROUP   iRIC/SolverInformation
+GROUP   iRIC/SolverInformation/Name
+DATASET iRIC/SolverInformation/Name/ data
+GROUP   iRIC/SolverInformation/Version
+DATASET iRIC/SolverInformation/Version/ data
+GROUP   iRIC/iRICZone
+DATASET iRIC/iRICZone/ data
+GROUP   iRIC/iRICZone/GridConditions
+GROUP   iRIC/iRICZone/GridConditions/Elevation
+GROUP   iRIC/iRICZone/GridConditions/Elevation/Value
+DATASET iRIC/iRICZone/GridConditions/Elevation/Value/ data
+GROUP   iRIC/iRICZone/GridConditions/Elevation_zb
+GROUP   iRIC/iRICZone/GridConditions/Elevation_zb/Value
+DATASET iRIC/iRICZone/GridConditions/Elevation_zb/Value/ data
+GROUP   iRIC/iRICZone/GridConditions/Fix_movable
+GROUP   iRIC/iRICZone/GridConditions/Fix_movable/Value
+DATASET iRIC/iRICZone/GridConditions/Fix_movable/Value/ data
+GROUP   iRIC/iRICZone/GridConditions/Obstacle
+GROUP   iRIC/iRICZone/GridConditions/Obstacle/Value
+DATASET iRIC/iRICZone/GridConditions/Obstacle/Value/ data
+GROUP   iRIC/iRICZone/GridConditions/Sediment_delt
+GROUP   iRIC/iRICZone/GridConditions/Sediment_delt/Value
+DATASET iRIC/iRICZone/GridConditions/Sediment_delt/Value/ data
+GROUP   iRIC/iRICZone/GridConditions/a_snux
+GROUP   iRIC/iRICZone/GridConditions/a_snux/Value
+DATASET iRIC/iRICZone/GridConditions/a_snux/Value/ data
+GROUP   iRIC/iRICZone/GridConditions/b_snux
+GROUP   iRIC/iRICZone/GridConditions/b_snux/Value
+DATASET iRIC/iRICZone/GridConditions/b_snux/Value/ data
+GROUP   iRIC/iRICZone/GridConditions/dex_rock_wd0
+GROUP   iRIC/iRICZone/GridConditions/dex_rock_wd0/Value
+DATASET iRIC/iRICZone/GridConditions/dex_rock_wd0/Value/ data
+GROUP   iRIC/iRICZone/GridConditions/ebcx_height
+GROUP   iRIC/iRICZone/GridConditions/ebcx_height/Value
+DATASET iRIC/iRICZone/GridConditions/ebcx_height/Value/ data
+GROUP   iRIC/iRICZone/GridConditions/ebcy_height
+GROUP   iRIC/iRICZone/GridConditions/ebcy_height/Value
+DATASET iRIC/iRICZone/GridConditions/ebcy_height/Value/ data
+GROUP   iRIC/iRICZone/GridConditions/igogan
+GROUP   iRIC/iRICZone/GridConditions/igogan/Value
+DATASET iRIC/iRICZone/GridConditions/igogan/Value/ data
+GROUP   iRIC/iRICZone/GridConditions/ikado_kussaku
+GROUP   iRIC/iRICZone/GridConditions/ikado_kussaku/Value
+DATASET iRIC/iRICZone/GridConditions/ikado_kussaku/Value/ data
+GROUP   iRIC/iRICZone/GridConditions/init_dry_bed
+GROUP   iRIC/iRICZone/GridConditions/init_dry_bed/Value
+DATASET iRIC/iRICZone/GridConditions/init_dry_bed/Value/ data
+GROUP   iRIC/iRICZone/GridConditions/init_water_level
+GROUP   iRIC/iRICZone/GridConditions/init_water_level/Value
+DATASET iRIC/iRICZone/GridConditions/init_water_level/Value/ data
+GROUP   iRIC/iRICZone/GridConditions/iout_dd_dist
+GROUP   iRIC/iRICZone/GridConditions/iout_dd_dist/Value
+DATASET iRIC/iRICZone/GridConditions/iout_dd_dist/Value/ data
+GROUP   iRIC/iRICZone/GridConditions/ivege_delx
+GROUP   iRIC/iRICZone/GridConditions/ivege_delx/Value
+DATASET iRIC/iRICZone/GridConditions/ivege_delx/Value/ data
+GROUP   iRIC/iRICZone/GridConditions/mix_cell
+GROUP   iRIC/iRICZone/GridConditions/mix_cell/Value
+DATASET iRIC/iRICZone/GridConditions/mix_cell/Value/ data
+GROUP   iRIC/iRICZone/GridConditions/n_okido
+GROUP   iRIC/iRICZone/GridConditions/n_okido/Value
+DATASET iRIC/iRICZone/GridConditions/n_okido/Value/ data
+GROUP   iRIC/iRICZone/GridConditions/perturbation0
+GROUP   iRIC/iRICZone/GridConditions/perturbation0/Value
+DATASET iRIC/iRICZone/GridConditions/perturbation0/Value/ data
+GROUP   iRIC/iRICZone/GridConditions/roughness_cell
+GROUP   iRIC/iRICZone/GridConditions/roughness_cell/Value
+DATASET iRIC/iRICZone/GridConditions/roughness_cell/Value/ data
+GROUP   iRIC/iRICZone/GridConditions/roughness_type
+GROUP   iRIC/iRICZone/GridConditions/roughness_type/Value
+DATASET iRIC/iRICZone/GridConditions/roughness_type/Value/ data
+GROUP   iRIC/iRICZone/GridConditions/vege_days
+GROUP   iRIC/iRICZone/GridConditions/vege_days/Value
+DATASET iRIC/iRICZone/GridConditions/vege_days/Value/ data
+GROUP   iRIC/iRICZone/GridConditions/vege_days2
+GROUP   iRIC/iRICZone/GridConditions/vege_days2/Value
+DATASET iRIC/iRICZone/GridConditions/vege_days2/Value/ data
+GROUP   iRIC/iRICZone/GridConditions/vege_density
+GROUP   iRIC/iRICZone/GridConditions/vege_density/Value
+DATASET iRIC/iRICZone/GridConditions/vege_density/Value/ data
+GROUP   iRIC/iRICZone/GridConditions/vege_height
+GROUP   iRIC/iRICZone/GridConditions/vege_height/Value
+DATASET iRIC/iRICZone/GridConditions/vege_height/Value/ data
+GROUP   iRIC/iRICZone/GridCoordinates
+GROUP   iRIC/iRICZone/GridCoordinates/CoordinateX
+DATASET iRIC/iRICZone/GridCoordinates/CoordinateX/ data
+GROUP   iRIC/iRICZone/GridCoordinates/CoordinateY
+DATASET iRIC/iRICZone/GridCoordinates/CoordinateY/ data
+GROUP   iRIC/iRICZone/ZoneBC
+GROUP   iRIC/iRICZone/ZoneIterativeData
+GROUP   iRIC/iRICZone/ZoneType
+DATASET iRIC/iRICZone/ZoneType/ data

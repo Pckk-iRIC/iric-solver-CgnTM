@@ -1,6 +1,6 @@
 # iric-solver-CgnTM（CGNS-Timestep-Merger）
  - iRICの結果を `result/Solution*.cgn` タイムステップごとに出力したCGNSを束ねるソルバー
- - **[ユーザーマニュアル](https://Pckk-iRIC.github.io/iric-solver-CgnTM/)**で詳細説明
+ - **[ユーザーマニュアル](https://Pckk-iRIC.github.io/iric-solver-CgnTM/)** で詳細説明
 
 ## プロジェクト概要
 - iRIC v4 で動作するソルバーです。

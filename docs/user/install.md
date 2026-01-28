@@ -3,7 +3,7 @@
 このページでは、ソルバーのダウンロードから配置までの手順を説明します。
 
 ## 1. ダウンロード
- - Releases ページから最新版を取得します。[リリースページ](https://github.com/Pckk-iRIC/iRIC_DataScope/releases)
+ - Releases ページから最新版を取得します。[リリースページ](https://github.com/Pckk-iRIC/iric-solver-CgnTM/releases)
  - Assets から配布ファイルをダウンロードしてください。
 
 ## 2. 配置先

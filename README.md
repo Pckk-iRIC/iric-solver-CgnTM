@@ -21,7 +21,7 @@
 - 開発: リポジトリ直下の `src`
 - 本番: `C:\Users\<username>\iRIC_v4\private\solvers\`
 
-# iRIC環境の注意点
+## iRIC環境の注意点
 - iRICのインストール時に Miniconda3 もインストールする必要があります。
 - Miniconda3 の存在確認は `C:\Users\<username>\iRIC_v4\Miniconda3` を参照してください。
 

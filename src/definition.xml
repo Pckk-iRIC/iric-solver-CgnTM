@@ -2,9 +2,9 @@
 <SolverDefinition
 	name="CgnTM"
 	caption="CgnTM"
-	version="1.0.2"
+	version="1.1.0"
 	copyright="Pckk"
-	release="2026.01.28"
+	release="2026.03.23"
 	homepage="https://www.pacific.co.jp/"
 	executable="run_solver.bat"
 	gridtype="structured2d"
@@ -87,6 +87,28 @@
 					<Enumerations>
 						<Enumeration value="0" caption="エラーにする" />
 						<Enumeration value="1" caption="欠損ステップをスキップする" />
+					</Enumerations>
+				</Definition>
+			</Item>
+			<Item name="thin_mode" caption="間引き設定">
+				<Definition valueType="integer" default="0">
+					<Enumerations>
+						<Enumeration value="0" caption="間引きしない" />
+						<Enumeration value="1" caption="等間隔で間引く" />
+					</Enumerations>
+				</Definition>
+			</Item>
+			<Item name="thin_step" caption="間引き間隔（Nステップごと）">
+				<Definition valueType="integer" default="2">
+					<Condition type="isEqual" target="thin_mode" value="1" />
+				</Definition>
+			</Item>
+			<Item name="thin_keep_last" caption="末尾ステップを必ず採用">
+				<Definition valueType="integer" default="1">
+					<Condition type="isEqual" target="thin_mode" value="1" />
+					<Enumerations>
+						<Enumeration value="0" caption="しない" />
+						<Enumeration value="1" caption="する" />
 					</Enumerations>
 				</Definition>
 			</Item>

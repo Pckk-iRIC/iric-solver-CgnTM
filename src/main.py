@@ -73,6 +73,9 @@ def run_from_iric(cgn_path):
     pattern = read_calc_string(iric, fid, "pattern", default="Solution*.cgn")
     time_source_value = read_calc_int(iric, fid, "time_source", default=0)
     missing_policy_value = read_calc_int(iric, fid, "missing_policy", default=0)
+    thin_mode_value = read_calc_int(iric, fid, "thin_mode", default=0)
+    thin_step_value = read_calc_int(iric, fid, "thin_step", default=2)
+    thin_keep_last_value = read_calc_int(iric, fid, "thin_keep_last", default=1)
     dry_run_value = read_calc_int(iric, fid, "dry_run", default=0)
     iric.cg_iRIC_Close(fid)
 
@@ -96,6 +99,9 @@ def run_from_iric(cgn_path):
     worker_path = solver_dir / "worker.py"
     time_source = "from_cgns" if time_source_value == 1 else "from_filename"
     missing_policy = "skip" if missing_policy_value == 1 else "error"
+    thin_mode = "every_n" if thin_mode_value == 1 else "none"
+    thin_step = str(thin_step_value if thin_step_value is not None else 2)
+    thin_keep_last = "true" if thin_keep_last_value == 1 else "false"
 
     cmd = [
         "cmd",
@@ -110,6 +116,12 @@ def run_from_iric(cgn_path):
         time_source,
         "--missing-policy",
         missing_policy,
+        "--thin-mode",
+        thin_mode,
+        "--thin-step",
+        thin_step,
+        "--thin-keep-last",
+        thin_keep_last,
     ]
     if input_type in (0, 1):
         cmd.extend(["--project", project_path, "--result-dir", result_subdir])

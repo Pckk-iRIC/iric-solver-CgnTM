@@ -20,6 +20,9 @@ iRIC の入力項目
   - pattern (既定: Solution*.cgn)
   - time_source (ファイル名 / CGNS の TimeValues)
   - missing_policy (error / skip)
+  - thin_mode (none / every_n)
+  - thin_step (間引き間隔)
+  - thin_keep_last (末尾ステップを必ず採用するか)
   - dry_run (検査のみ)
 
 時刻の取得
@@ -45,3 +48,6 @@ iRIC の入力項目
 - プロジェクトフォルダ入力には project.xml が必要です。
 - 格子サイズが一致しない場合はエラーになります。
 - 出力時刻の順序はファイル名の自然順に従います。
+
+更新スクリプト
+- `update_solver.ps1`: 既存インストールをバックアップしてから更新を適用します（配布時は `CgnTM` フォルダ内に配置）。

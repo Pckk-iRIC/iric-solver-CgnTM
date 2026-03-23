@@ -6,8 +6,10 @@ from __future__ import annotations
 
 import argparse
 import datetime as _dt
+import re
 import shutil
 import sys
+import zipfile
 from pathlib import Path
 
 
@@ -75,6 +77,49 @@ def _normalize_release_date(value: str) -> str | None:
     if len(digits) == 8:
         return digits
     return None
+
+
+def _safe_script_name(name: str) -> str:
+    return re.sub(r"[^A-Za-z0-9._-]", "_", name)
+
+
+def _write_update_main_script(repo_root: Path, out_dir: Path, solver_dir_name: str) -> Path:
+    template_path = repo_root / "src" / "update_solver.ps1"
+    if not template_path.exists():
+        raise FileNotFoundError(f"更新スクリプトのテンプレートが見つかりません: {template_path}")
+    text = template_path.read_text(encoding="utf-8")
+    text = text.replace("__SOLVER_NAME__", solver_dir_name)
+    out_path = out_dir / "update_solver.ps1"
+    # Use UTF-8 BOM for stable behavior on Windows PowerShell.
+    out_path.write_text(text, encoding="utf-8-sig", newline="\r\n")
+    return out_path
+
+
+def _write_update_launcher(release_root: Path, solver_dir_name: str) -> Path:
+    script_name = f"update_{_safe_script_name(solver_dir_name)}.bat"
+    out_path = release_root / script_name
+    lines = [
+        "@echo off",
+        "setlocal",
+        f'powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0{solver_dir_name}\\update_solver.ps1" %*',
+        "set EXIT_CODE=%ERRORLEVEL%",
+        "endlocal & exit /b %EXIT_CODE%",
+        "",
+    ]
+    out_path.write_text("\r\n".join(lines), encoding="cp932", newline="\r\n")
+    return out_path
+
+
+def _create_release_zip(zip_path: Path, out_dir: Path, update_script_path: Path | None) -> None:
+    solver_dir_name = out_dir.name
+    with zipfile.ZipFile(zip_path, "w", compression=zipfile.ZIP_DEFLATED) as zf:
+        for path in out_dir.rglob("*"):
+            if not path.is_file():
+                continue
+            rel = path.relative_to(out_dir)
+            zf.write(path, arcname=(Path(solver_dir_name) / rel).as_posix())
+        if update_script_path is not None and update_script_path.exists():
+            zf.write(update_script_path, arcname=update_script_path.name)
 
 
 def main() -> int:
@@ -173,6 +218,8 @@ def main() -> int:
         rel = path.relative_to(src_dir)
         if "__pycache__" in rel.parts:
             continue
+        if path.name.lower() in ("update_solver.bat", "update_solver.ps1"):
+            continue
         if path.is_file() and path.suffix.lower() == ".pyc":
             continue
         dest = out_dir / rel
@@ -182,6 +229,20 @@ def main() -> int:
             dest.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(path, dest)
 
+    update_script_path = None
+    update_launcher_path = None
+    try:
+        update_script_path = _write_update_main_script(repo_root, out_dir, solver_dir_name)
+    except Exception as exc:
+        print(f"警告: 更新スクリプト本体の作成に失敗しました: {exc}", file=sys.stderr)
+
+    if args.release:
+        try:
+            update_launcher_path = _write_update_launcher(release_root, solver_dir_name)
+            print(f"更新ランチャー: {update_launcher_path}")
+        except Exception as exc:
+            print(f"警告: 更新ランチャーの作成に失敗しました: {exc}", file=sys.stderr)
+
     if args.release and zip_path is not None:
         if zip_path.exists():
             if args.force:
@@ -189,10 +250,11 @@ def main() -> int:
             else:
                 print(f"ZIPが既に存在します: {zip_path}。上書きする場合は --force を付けてください。", file=sys.stderr)
                 return 1
-        archive_base = str(zip_path.with_suffix(""))
-        shutil.make_archive(archive_base, "zip", root_dir=release_root, base_dir=solver_dir_name)
+        _create_release_zip(zip_path=zip_path, out_dir=out_dir, update_script_path=update_launcher_path)
         print(f"出力完了: {out_dir}")
         print(f"ZIP作成: {zip_path}")
+        if update_launcher_path is not None:
+            print(f"更新ランチャー: {update_launcher_path}")
     else:
         print(f"出力完了: {out_dir}")
     return 0

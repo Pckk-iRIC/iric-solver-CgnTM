@@ -235,6 +235,41 @@ def build_solution_entries(
     return entries, base_values
 
 
+def parse_bool_text(value):
+    text = str(value).strip().lower()
+    if text in ("1", "true", "yes", "on"):
+        return True
+    if text in ("0", "false", "no", "off"):
+        return False
+    raise MergerError(f"真偽値の指定が不正です: {value}", exit_code=2)
+
+
+def apply_thinning(entries, base_values, thin_mode, thin_step, thin_keep_last):
+    if thin_mode == "none":
+        return entries, base_values
+
+    if thin_mode != "every_n":
+        raise MergerError(f"不正な間引きモードです: {thin_mode}", exit_code=2)
+
+    if thin_step < 1:
+        raise MergerError("間引き間隔は 1 以上で指定してください。", exit_code=2)
+
+    if len(entries) <= 2 or thin_step == 1:
+        return entries, base_values
+
+    keep_indices = set(range(0, len(entries), thin_step))
+    keep_indices.add(0)
+    if thin_keep_last:
+        keep_indices.add(len(entries) - 1)
+    keep_indices = sorted(keep_indices)
+
+    filtered_entries = [entries[i] for i in keep_indices]
+    filtered_base_values = {
+        name: [values[i] for i in keep_indices] for name, values in base_values.items()
+    }
+    return filtered_entries, filtered_base_values
+
+
 def update_base_iterative_data(output_file, times, base_values):
     base_iter = output_file.require_group("iRIC/BaseIterativeData")
     time_group = base_iter.require_group("TimeValues")
@@ -302,6 +337,9 @@ def merge_project(
     pattern,
     time_source,
     missing_policy,
+    thin_mode,
+    thin_step,
+    thin_keep_last,
     dry_run,
     output_cgns_name,
 ):
@@ -332,9 +370,13 @@ def merge_project(
     entries, base_values = build_solution_entries(
         solution_paths, time_source, missing_policy, base_items
     )
+    entries, base_values = apply_thinning(
+        entries, base_values, thin_mode, thin_step, thin_keep_last
+    )
 
     if not entries:
         raise MergerError("有効なCGNSがありません。", exit_code=2)
+    print(f"採用ファイル数: {len(entries)}")
 
     if dry_run:
         print("dry-runのため出力を作成しません。")
@@ -368,6 +410,9 @@ def merge_result_dir(
     pattern,
     time_source,
     missing_policy,
+    thin_mode,
+    thin_step,
+    thin_keep_last,
     dry_run,
     output_cgns_name,
 ):
@@ -397,9 +442,13 @@ def merge_result_dir(
     entries, base_values = build_solution_entries(
         solution_paths, time_source, missing_policy, base_items
     )
+    entries, base_values = apply_thinning(
+        entries, base_values, thin_mode, thin_step, thin_keep_last
+    )
 
     if not entries:
         raise MergerError("有効なCGNSがありません。", exit_code=2)
+    print(f"採用ファイル数: {len(entries)}")
 
     if dry_run:
         print("dry-runのため出力を作成しません。")
@@ -447,6 +496,23 @@ def build_parser():
         default="error",
         help="欠損時の挙動",
     )
+    parser.add_argument(
+        "--thin-mode",
+        choices=["none", "every_n"],
+        default="none",
+        help="間引きモード",
+    )
+    parser.add_argument(
+        "--thin-step",
+        type=int,
+        default=2,
+        help="Nステップごとに採用する間引き間隔",
+    )
+    parser.add_argument(
+        "--thin-keep-last",
+        default="true",
+        help="間引き時に末尾ステップを必ず採用するか (true/false)",
+    )
     parser.add_argument("--dry-run", action="store_true", help="検査のみ実行")
     return parser
 
@@ -464,6 +530,7 @@ def main(argv=None):
 
     output_dir = Path(args.output_dir).expanduser()
     output_cgns_name = args.output_cgns_name or "Case1.cgn"
+    thin_keep_last = parse_bool_text(args.thin_keep_last)
 
     try:
         if args.project:
@@ -475,6 +542,9 @@ def main(argv=None):
                 pattern=args.pattern,
                 time_source=args.time_source,
                 missing_policy=args.missing_policy,
+                thin_mode=args.thin_mode,
+                thin_step=args.thin_step,
+                thin_keep_last=thin_keep_last,
                 dry_run=args.dry_run,
                 output_cgns_name=output_cgns_name,
             )
@@ -486,6 +556,9 @@ def main(argv=None):
                 pattern=args.pattern,
                 time_source=args.time_source,
                 missing_policy=args.missing_policy,
+                thin_mode=args.thin_mode,
+                thin_step=args.thin_step,
+                thin_keep_last=thin_keep_last,
                 dry_run=args.dry_run,
                 output_cgns_name=output_cgns_name,
             )
